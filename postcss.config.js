@@ -1,4 +1,3 @@
-/* eslint global-require: "error" */
 const purgecss = require('@fullhuman/postcss-purgecss')({
   content: [
     './**/*.html',
@@ -7,14 +6,16 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
 });
 
-module.exports = {
-  plugins: [
-    require('postcss-import'),
-    require('tailwindcss'),
-    require('autoprefixer'),
+module.exports = ({ options }) => ({
+  plugins: {
+    'postcss-import': {},
+    tailwindcss: {},
+    autoprefixer: {},
     ...(process.env.NODE_ENV === 'production' ? [purgecss] : []),
-    require('cssnano')({
-      preset: 'default',
-    }),
-  ],
-};
+    cssnano: options.dev ? false : {
+      preset: ['default', {
+        discardComments: { removeAll: true },
+      }],
+    },
+  },
+});
