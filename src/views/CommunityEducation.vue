@@ -47,7 +47,8 @@
           </li>
         </ul>
         <p class="my-4">Want to contact me? Gimme a shout out:</p>
-        <form class="block" name="contact-form" method="POST" data-netlify="true"
+        <form action="/thank-you" class="block" name="contact-form" method="POST"
+              data-netlify="true"
               data-netlify-honeypot="bot-field" role="form">
           <input type="hidden" name="form-name" value="contact-form" />
           <p class="block my-4">

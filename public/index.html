@@ -10,19 +10,30 @@
   </head>
   <body class="bg-blue-700 font-sans antialiased leading-tight">
     <!-- A little help for the Netlify post-processing bots -->
-    <form class="hidden" name="contact-form" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" role="form" hidden aria-hidden="true">
+    <form class="hidden" action="/thank-you" name="contact-form" method="POST" data-netlify="true"
+          data-netlify-honeypot="bot-field" role="form" hidden aria-hidden="true">
       <input type="hidden" name="form-name" value="contact-form" />
       <p class="block my-4">
-        <input class="block rounded px-4 py-2 border-gray-400 border-current border-2 w-full placeholder-gray-500 focus:outline-none" type="text" name="name" id="name" placeholder="Name" role="textbox" aria-placeholder="name" required aria-labelledby="name" aria-required="true" />
+        <input class="block rounded px-4 py-2 border-gray-400 border-current border-2 w-full
+        placeholder-gray-500 focus:outline-none" type="text" name="name" id="name"
+               placeholder="Name" role="textbox" aria-placeholder="name" required
+               aria-labelledby="name" aria-required="true" />
       </p>
       <p class="block my-4">
-        <input class="block rounded px-4 py-2 border-gray-400 border-current border-2 w-full placeholder-gray-500 focus:outline-none" type="email" name="email" id="email" placeholder="email" role="textbox" aria-placeholder="email" required aria-labelledby="email" aria-required="true" />
+        <input class="block rounded px-4 py-2 border-gray-400 border-current border-2 w-full
+        placeholder-gray-500 focus:outline-none" type="email" name="email" id="email"
+               placeholder="email" role="textbox" aria-placeholder="email" required
+               aria-labelledby="email" aria-required="true" />
       </p>
       <p class="block my-4">
-        <textarea class="block rounded px-4 py-2 border-gray-400 border-current border-2 h-64 w-full placeholder-gray-500 focus:outline-none" name="message" id="message" placeholder="message" role="textbox" aria-placeholder="message" required aria-describedby="messsage" aria-required="true"></textarea>
+        <textarea class="block rounded px-4 py-2 border-gray-400 border-current border-2 h-64
+        w-full placeholder-gray-500 focus:outline-none" name="message" id="message"
+                  placeholder="message" role="textbox" aria-placeholder="message" required
+                  aria-describedby="messsage" aria-required="true"></textarea>
       </p>
       <p class="block my-4">
-        <button class="px-4 py-2 bg-blue-700 text-gray-100 rounded-lg shadow-lg" type="submit" role="button" aria-describedby="submit" aria-label="send message">Send</button>
+        <button class="px-4 py-2 bg-blue-700 text-gray-100 rounded-lg shadow-lg" type="submit"
+                role="button" aria-describedby="submit" aria-label="send message">Send</button>
       </p>
     </form>
     <noscript>
