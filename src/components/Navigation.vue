@@ -18,7 +18,7 @@
           <router-link class="block text-gray-900 no-underline font-bold text-xl lg:text-3xl
           font-extrabold leading-none lg:leading-tight lg:text-center" to="/" role="link"
                        aria-label="Jesús García Web Page">
-            Jesús García</router-link>
+            Jesús García Valadez</router-link>
           <nav class="hidden md:flex lg:flex xl:flex mt-3 lg:mt-4 uppercase tracking-wide
           text-xs space-x-6" role="navigation">
             <router-link class="text-blue-700 font-bold no-underline hover:text-gray-900"
