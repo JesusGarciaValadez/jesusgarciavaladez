@@ -17,13 +17,13 @@
             <a class="text-blue-700 font-bold underline" href="http://144.202.105.193/"
                title="Filter of projects" target="_blank" role="link"
                aria-label="Rolve Inmobiliaria Development (2018)" rel="noopener">
-              Rolve Inmobiliaria Development (2018)</a>
+              Rolve Inmobiliaria Development (2018)</a> jesus.garciav@me.com:hydra
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a class="text-blue-700 font-bold underline" href="http://149.28.209.228/"
                title="Logikoss Laravel Demo" target="_blank" role="link"
                aria-label="Logikoss Demo Project (2018)" rel="noopener">
-              Logikoss Demo Project (2018)</a>
+              Logikoss Demo Project (2018)</a> jesus.garciav@me.com:hydrastudio
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a class="text-blue-700 font-bold underline" href="https://platzifood.netlify.app/"
