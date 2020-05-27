@@ -9,9 +9,9 @@
           Hi! <a class="text-blue-700 font-bold underline" href="https://twitter.com/JesusGarciaV_"
                  role="link" aria-label="Jesús García's Twitter account">
           This is Jesús García Valadez</a>,
-          I’m a full-stack developer at <strong class="text-blue-700 font-bold">Laravel</strong>
-          and <strong class="text-blue-700 font-bold">Vue</strong>, and I'm the best fit for your
-          position. Also, I love to share a lot of things about development.
+          I’m a full-stack developer who loves front-end, working with <strong
+          class="text-blue-700 font-bold">Laravel</strong> and <strong class="text-blue-700
+          font-bold">Vue</strong>.
         </p>
         <p class="my-4">
           You can know all about me and my work about software development through my
@@ -23,14 +23,9 @@
                        aria-label="Technologies">technologies, </router-link>
           <router-link class="text-blue-700 font-bold underline" to="/education" role="link"
                        aria-label="Community & Education">community & education.</router-link>
-        </p>
+          links</p>
         <p class="my-4">In 2017, I also started to do some works as a freelance and left my job
-          to make thinks full-time.</p>
-        <p class="my-4">
-          Right now I'm working on
-          <a class="text-blue-700 font-bold underline" href="https://www.linio.com/" role="link"
-             aria-label="Linio">Linio.</a>
-        </p>
+          to make things full-time.</p>
         <p class="my-4">
           Curious about how I work? Check out my
           <router-link class="text-blue-700 font-bold underline" to="uses" role="link"
