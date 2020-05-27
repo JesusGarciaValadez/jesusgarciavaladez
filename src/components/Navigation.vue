@@ -91,9 +91,7 @@ export default Vue.extend({
   methods: {
     toggleShow() {
       this.show = !this.show;
-      console.log('click');
     },
   },
 });
 </script>
-/* eslint-enable global-require */
