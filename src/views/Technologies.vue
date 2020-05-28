@@ -9,30 +9,30 @@
         <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">Front-end</h2>
         <ul class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
             role="list">
-          <li
-            class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
-            v-for="(tech, index) in frontendTechs" :key="index">{{ tech.name }}</li>
+          <TechnologyList :technologies="frontendTechs"
+                          v-for="(tech, index) in technologies"
+                          :key="index"></TechnologyList>
         </ul>
         <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">Back-end</h2>
         <ul class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
             role="list">
-          <li
-            class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
-            v-for="(tech, index) in backendTechs" :key="index">{{ tech.name }}</li>
+          <TechnologyList :technologies="backendTechs"
+                          v-for="(tech, index) in technologies"
+                          :key="index"></TechnologyList>
         </ul>
         <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">DevOps</h2>
         <ul class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
             role="list">
-          <li
-            class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
-            v-for="(tech, index) in devopsTechs" :key="index">{{ tech.name }}</li>
+          <TechnologyList :technologies="devopsTechs"
+                          v-for="(tech, index) in technologies"
+                          :key="index"></TechnologyList>
         </ul>
         <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">Marketing</h2>
         <ul class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
             role="list">
-          <li
-            class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
-            v-for="(tech, index) in marketingTechs" :key="index">{{ tech.name }}</li>
+          <TechnologyList :technologies="marketingTechs"
+                          v-for="(tech, index) in technologies"
+                          :key="index"></TechnologyList>
         </ul>
         <p class="my-4">
           I have a subscriptions in some learning sites as:
@@ -59,9 +59,13 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import TechnologyList from '@/components/TechnologyList.vue';
 
 export default Vue.extend({
   name: 'Technologies',
+  components: {
+    TechnologyList,
+  },
   data() {
     return {
       frontendTechs: [
