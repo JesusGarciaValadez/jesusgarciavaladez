@@ -1,9 +1,6 @@
 const purgecss = require('@fullhuman/postcss-purgecss')({
-  content: [
-    './**/*.html',
-    './**/**/*.vue',
-  ],
-  defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
+  content: ['./**/*.html', './**/**/*.vue'],
+  defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
 });
 
 module.exports = ({ options }) => ({
@@ -12,10 +9,15 @@ module.exports = ({ options }) => ({
     tailwindcss: {},
     autoprefixer: {},
     ...(process.env.NODE_ENV === 'production' ? [purgecss] : []),
-    cssnano: options.dev ? false : {
-      preset: ['default', {
-        discardComments: { removeAll: true },
-      }],
-    },
+    cssnano: options.dev
+      ? false
+      : {
+          preset: [
+            'default',
+            {
+              discardComments: { removeAll: true },
+            },
+          ],
+        },
   },
 });

@@ -9,10 +9,8 @@
   </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue';
-
-export default Vue.extend({
-  name: 'PageNotFound',
-});
+<script lang="js">
+export default {
+  name: 'PageNotFound'
+};
 </script>
