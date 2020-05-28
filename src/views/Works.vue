@@ -7,166 +7,21 @@
         <p class="my-4">You can find some of my works here:</p>
         <ul class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
             role="list">
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline" href="https://www.linio.com/"
-               title="Linio" target="_blank" role="link" aria-label="Linio (2018-2020)"
-               rel="noopener">
-              Linio (2018-2020)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline" href="http://144.202.105.193/"
-               title="Filter of projects" target="_blank" role="link"
-               aria-label="Rolve Inmobiliaria Development (2018)" rel="noopener">
-              Rolve Inmobiliaria Development (2018)</a> jesus.garciav@me.com:hydra
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline" href="http://149.28.209.228/"
-               title="Logikoss Laravel Demo" target="_blank" role="link"
-               aria-label="Logikoss Demo Project (2018)" rel="noopener">
-              Logikoss Demo Project (2018)</a> jesus.garciav@me.com:hydrastudio
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline" href="https://platzifood.netlify.app/"
-               title="PlatziFood" target="_blank" role="link"
-               aria-label="PlatziFood Demo Project (2020)" rel="noopener">
-              PlatziFood Demo Project (2020)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline" href="http://104.207.150.215/"
-               title="Filter of projects" target="_blank" role="link"
-               aria-label="Filter (2019(" rel="noopener">Filter (2019)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline" href="https://www.legalario.com/"
-               title="Legalario" target="_blank" role="link"
-               aria-label="Legalario (2018)" rel="noopener">Legalario (2018)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline"
-               href="https://cupon-kidzania-mx.netlify.app/" title="Kidzania Coupon"
-               target="_blank" role="link" aria-label="Kidzania Code Redeemer Demo (2015)"
-               rel="noopener">
-              Kidzania Code Redeemer Demo (2015)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline"
-               href="https://apps.apple.com/mx/app/atlasmx/id579811242"
-               title="AtlasMX App" target="_blank" role="link"
-               aria-label="AtlasMX App (2012)" rel="noopener">AtlasMX App (2012)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline"
-               href="https://github.com/JesusGarciaValadez/TuTiendita"
-               title="TuTiendita" target="_blank" role="link"
-               aria-label="TuTiendita (2019)" rel="noopener">TuTiendita (2019)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline"
-               href="https://github.com/JesusGarciaValadez/TuTienditaBackend"
-               title="TuTiendita API" target="_blank" role="link"
-               aria-label="TuTiendita API (2019)" rel="noopener">TuTiendita API (2019)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline"
-               href="https://github.com/JesusGarciaValadez/local.frenchs.com"
-               title="French's Mustards Mexico Laravel Repository" target="_blank" role="link"
-               aria-label="French's Mustards Mexico Repository" rel="noopener">
-              French's Mustards Mexico Repository (2016)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline"
-               href="https://github.com/JesusGarciaValadez/defensa-medico-legal"
-               title="Defensory legal and medical Repository" target="_blank" role="link"
-               aria-label="Defensory legal and medical Repository" rel="noopener">
-              Defensory legal and medical Repository</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-blue-700 font-bold underline"
-               href="https://github.com/JesusGarciaValadez/local.iams.mars.com.mx"
-               title="IAMS Mars&copy; Repository" target="_blank" role="link"
-               aria-label="IAMS Mars&copy; Repository" rel="noopener">IAMS Mars&copy; Repository</a>
+          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0" v-for="(work, index) in worksOnline"
+              :key="index">
+            <a class="text-blue-700 font-bold underline" :href="work.url"
+               :title="work.title" target="_blank" role="link" :aria-label="work.label"
+               rel="noopener">{{ work.name }}</a>
           </li>
         </ul>
         <h2 class="my-4" role="heading">Some clients for whose projects I worked:</h2>
         <ul class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
             role="list">
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://rotoplas.com.mx/"
-               title="Rotoplas México" target="_blank" role="link"
-               aria-label="Rotoplas Mexico (2008)" rel="noopener">Rotoplas Mexico (2008)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://rotoplas.com/"
-               title="Rotoplas International" target="_blank" role="link"
-               aria-label="Rotoplas International (2009)" rel="noopener">
-              Rotoplas International (2009)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="http://www.asur.com.mx/"
-               title="ASUR SouthEast Airports" target="_blank" role="link"
-               aria-label="ASUR SouthEast Airports (2007-2008)" rel="noopener">
-              ASUR SouthEast Airports (2007-2008)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://grupobimbo.com/es"
-               title="Bimbo Group" target="_blank" role="link"
-               aria-label="Bimbo Group (2008)" rel="noopener">Bimbo Group (2008)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://axa.mx/"
-               title="AXA Seguros" target="_blank" role="link"
-               aria-label="AXA Seguros | AXA Insurances (2015)" rel="noopener">
-              AXA Seguros | AXA Insurances (2015)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://giovannibojanini.es/"
-               title="Giovanni Bojanini" target="_blank" role="link"
-               aria-label="Giovanni Bojanini Mexico & Argentina (2014)" rel="noopener">
-              Giovanni Bojanini Mexico & Argentina (2014)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="http://www.angloamericano.com.mx/"
-               title="The Anglo" target="_blank" role="link" aria-label="The Anglo (2009)"
-               rel="noopener">
-              The Anglo (2009)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="http://www.altonivel.com.mx/"
-               title="Alto Nivel Magazine" target="_blank" role="link"
-               aria-label="Alto Nivel Magazine (2010)" rel="noopener">
-              Alto Nivel Magazine (2010)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://www.mexicodesconocido.com.mx/"
-               title="México Desconocido" target="_blank" role="link"
-               aria-label="México Desconocido (2010)" rel="noopener">México Desconocido (2010)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="http://www.ingeniahosting.com/"
-               title="Ingenia Hosting" target="_blank" role="link"
-               aria-label="Ingenia Hosting (2010)" rel="noopener">Ingenia Hosting (2010)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://gsea.org/apply/"
-               title="Global Student Entrepreneur Awards 2008 - 2009" target="_blank"
-               role="link" aria-label="Global Student Entrepreneur Awards (2009-2010)"
-               rel="noopener">
-              Global Student Entrepreneur Awards (2009-2010)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://www.saludymedicinas.com.mx/"
-               title="Health & Medicines" target="_blank" role="link"
-               aria-label="Health & Medicines (2009)" rel="noopener">Health & Medicines (2009)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://www.vonwobeser.com/"
-               title="Von Wobeser" target="_blank" role="link"
-               aria-label="Von Wobeser (2008)" rel="noopener">Von Wobeser (2008)</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
-            <a class="text-gray-900 font-bold underline" href="https://www.walmex.mx/"
-               title="WalMart México" target="_blank" role="link"
-               aria-label="Walmex (2009)" rel="noopener">Walmex (2009)</a>
+          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0" v-for="(work, index) in worksOffline"
+              :key="index">
+            <a class="text-gray-900 font-bold underline" :href="work.url"
+               :title="work.title" target="_blank" role="link"
+               :aria-label="work.label" rel="noopener">{{ work.name }}</a>
           </li>
         </ul>
       </div>
@@ -179,5 +34,175 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'Works',
+  data() {
+    return {
+      worksOnline: [
+        {
+          url: 'https://www.linio.com/',
+          title: 'Linio©',
+          label: 'Linio© (2018-2020)',
+          name: 'Linio© (2018-2020)',
+        },
+        {
+          url: 'http://144.202.105.193/',
+          title: 'Rolve Inmobiliaria© Development (2018)',
+          label: 'Rolve Inmobiliaria©',
+          name: 'Rolve Inmobiliaria© Development (2018) (ask for credentials in order to test the project)',
+        },
+        {
+          url: 'http://149.28.209.228/',
+          title: 'Logikoss© Laravel Demo',
+          label: 'Logikoss© Demo Project (2018)',
+          name: 'Logikoss© Demo Project (2018) (ask for credentials in order to test the project)',
+        },
+        {
+          url: 'https://platzifood.netlify.app/',
+          title: 'PlatziFood',
+          label: 'PlatziFood Demo Project (2020)',
+          name: 'PlatziFood Demo Project (2020)',
+        },
+        {
+          url: 'http://104.207.150.215/',
+          title: 'Filter of projects',
+          label: 'Filter (2019)',
+          name: 'Filter (2019)',
+        },
+        {
+          url: 'https://www.legalario.com/',
+          title: 'Legalario©',
+          label: 'Legalario© (2018)',
+          name: 'Legalario© (2018)',
+        },
+        {
+          url: 'https://cupon-kidzania-mx.netlify.app/',
+          title: 'Kidzania© Coupon',
+          label: 'Kidzania© Code Redeemer Demo (2015)',
+          name: 'Kidzania© Code Redeemer Demo (2015)',
+        },
+        {
+          url: 'https://apps.apple.com/mx/app/atlasmx/id579811242',
+          title: 'AtlasMX App',
+          label: 'AtlasMX App (2012)',
+          name: 'AtlasMX App (2012)',
+        },
+        {
+          url: 'https://github.com/JesusGarciaValadez/TuTiendita',
+          title: 'TuTiendita',
+          label: 'TuTiendita (2019)',
+          name: 'TuTiendita (2019)',
+        },
+        {
+          url: 'https://github.com/JesusGarciaValadez/TuTienditaBackend',
+          title: 'TuTiendita API',
+          label: 'TuTiendita API (2019)',
+          name: 'TuTiendita API (2019)',
+        },
+        {
+          url: 'https://github.com/JesusGarciaValadez/local.frenchs.com',
+          title: 'French\'s© Mustards Mexico Laravel Repository',
+          label: 'French\'s© Mustards Mexico Repository',
+          name: 'French\'s© Mustards Mexico Repository (2016)',
+        },
+        {
+          url: 'https://github.com/JesusGarciaValadez/defensa-medico-legal',
+          title: 'Defensory legal and medical Repository',
+          label: 'Defensory legal and medical Repository',
+          name: 'Defensory legal and medical Repository',
+        },
+        {
+          url: 'https://github.com/JesusGarciaValadez/local.iams.mars.com.mx',
+          title: 'IAMS Mars© Repository',
+          label: 'IAMS Mars© Repository',
+          name: 'IAMS Mars© Repository',
+        },
+      ],
+      worksOffline: [
+        {
+          url: 'https://rotoplas.com.mx/',
+          title: 'Rotoplas© México',
+          label: 'Rotoplas© Mexico (2008)',
+          name: 'Rotoplas© Mexico (2008)',
+        },
+        {
+          url: 'https://rotoplas.com/',
+          title: 'Rotoplas© International',
+          label: 'Rotoplas© International (2009)',
+          name: 'Rotoplas© International (2009)',
+        },
+        {
+          url: 'http://www.asur.com.mx/',
+          title: 'ASUR© SouthEast Airports',
+          label: 'ASUR© SouthEast Airports (2007-2008)',
+          name: 'ASUR© SouthEast Airports (2007-2008)',
+        },
+        {
+          url: 'https://grupobimbo.com/es',
+          title: 'Bimbo© Group',
+          label: 'Bimbo© Group (2008)',
+          name: 'Bimbo© Group (2008)',
+        },
+        {
+          url: 'https://axa.mx/',
+          title: 'AXA© Seguros',
+          label: 'AXA© Seguros | AXA© Insurances (2015)',
+          name: 'AXA© Seguros | AXA© Insurances (2015)',
+        },
+        {
+          url: 'https://giovannibojanini.es/',
+          title: 'Giovanni Bojanini©',
+          label: 'Giovanni Bojanini© Mexico & Argentina (2014)',
+          name: 'Giovanni Bojanini© Mexico & Argentina (2014)',
+        },
+        {
+          url: 'http://www.angloamericano.com.mx/',
+          title: 'The Anglo©',
+          label: 'The Anglo© (2009)',
+          name: 'The Anglo© (2009)',
+        },
+        {
+          url: 'http://www.altonivel.com.mx/',
+          title: 'Alto Nivel© Magazine',
+          label: 'Alto Nivel© Magazine (2010)',
+          name: 'Alto Nivel© Magazine (2010)',
+        },
+        {
+          url: 'https://www.mexicodesconocido.com.mx/',
+          title: 'México Desconocido©',
+          label: 'México Desconocido© (2010)',
+          name: 'México Desconocido© (2010)',
+        },
+        {
+          url: 'http://www.ingeniahosting.com/',
+          title: 'Ingenia Hosting©',
+          label: 'Ingenia Hosting© (2010)',
+          name: 'Ingenia Hosting© (2010)',
+        },
+        {
+          url: 'https://gsea.org/apply/',
+          title: 'Global Student Entrepreneur Awards 2008 - 2009',
+          label: 'Global Student Entrepreneur Awards (2009-2010)',
+          name: 'Global Student Entrepreneur Awards (2009-2010)',
+        },
+        {
+          url: 'https://www.saludymedicinas.com.mx/',
+          title: 'Health & Medicines',
+          label: 'Health & Medicines (2009)',
+          name: 'Health & Medicines (2009)',
+        },
+        {
+          url: 'https://www.vonwobeser.com/',
+          title: 'Von Wobeser©',
+          label: 'Von Wobeser© (2008)',
+          name: 'Von Wobeser© (2008)',
+        },
+        {
+          url: 'https://www.walmex.mx/',
+          title: 'WalMart© México',
+          label: 'Walmex© (2009)',
+          name: 'Walmex© (2009)',
+        },
+      ],
+    };
+  },
 });
 </script>

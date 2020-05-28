@@ -8,42 +8,12 @@
         <p class="my-4">You can see my spaces in social networks:</p>
         <ul class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
             role="list">
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light">
+          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
+              v-for="(network, index) in networks" :key="index">
             <a class="text-blue-700 font-bold underline"
-               href="https://github.com/JesusGarciaValadez" title="Github" target="_blank"
-               role="link" aria-label="Github Profile Page">Github</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light">
-            <a class="text-blue-700 font-bold underline"
-               href="https://www.twitter.com/@JesusGarciaV_" title="Twitter" target="_blank"
-               role="link" aria-label="JesusGarciaV_ Twitter Account">Twitter</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light">
-            <a class="text-blue-700 font-bold underline"
-               href="https://www.facebook.com/JesusAGarciaValadez/" title="Facebook"
-               target="_blank" role="link" aria-label="JesusGarciaValadez Facebook Page">
-              Facebook</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light">
-            <a class="text-blue-700 font-bold underline"
-               href="https://www.codepen.io/JesusGarciaValadez" title="CodePen" target="_blank"
-               role="link" aria-label="JesusGarciaValadez CodePen profile">CodePen</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light">
-            <a class="text-blue-700 font-bold underline"
-               href="https://platzi.com/@JesusGarciaValadez/" title="Platzi" target="_blank"
-               role="link" aria-label="JesusGarciaValadez Platzi Profile">Platzi</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light">
-            <a class="text-blue-700 font-bold underline"
-               href="https://styde.net/perfil/_chucho_/"
-               title="Styde: A Laravel Community in Spanish" target="_blank" role="link"
-               aria-label="JesusGarciaValadez Styde Profile">Styde</a>
-          </li>
-          <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light">
-            <a class="text-blue-700 font-bold underline"
-               href="https://www.linkedin.com/in/jesusgarciav/" title="LinkedIn" target="_blank"
-               role="link" aria-label="JesusGarciaValadez LinkedIn Profile">LinkedIn</a>
+               v-bind:href="network.networkUrl" v-bind:title="network.networkTitle"
+               target="_blank" role="link" v-bind:aria-label="network.networkLabel">
+              {{ network.networkName }}</a>
           </li>
         </ul>
         <p class="my-4">Want to contact me? Gimme a shout out:</p>
@@ -84,5 +54,53 @@ import Vue from 'vue';
 
 export default Vue.extend({
   name: 'CommunityEducation',
+  data() {
+    return {
+      networks: [
+        {
+          networkUrl: 'https://github.com/JesusGarciaValadez',
+          networkTitle: 'Github',
+          networkLabel: 'Github Profile Page',
+          networkName: 'Github',
+        },
+        {
+          networkUrl: 'https://www.twitter.com/@JesusGarciaV_',
+          networkTitle: 'Twitter',
+          networkLabel: 'JesusGarciaV_ Twitter Account',
+          networkName: 'Twitter',
+        },
+        {
+          networkUrl: 'https://www.facebook.com/JesusAGarciaValadez/',
+          networkTitle: 'Facebook',
+          networkLabel: 'JesusGarciaValadez Facebook Page',
+          networkName: 'Facebook',
+        },
+        {
+          networkUrl: 'https://www.codepen.io/JesusGarciaValadez',
+          networkTitle: 'CodePen',
+          networkLabel: 'JesusGarciaValadez CodePen profile',
+          networkName: 'CodePen',
+        },
+        {
+          networkUrl: 'https://platzi.com/@JesusGarciaValadez/',
+          networkTitle: 'Platzi',
+          networkLabel: 'JesusGarciaValadez Platzi Profile',
+          networkName: 'Platzi',
+        },
+        {
+          networkUrl: 'https://styde.net/perfil/_chucho_/',
+          networkTitle: 'Styde: A Laravel Community in Spanish',
+          networkLabel: 'JesusGarciaValadez Styde Profile',
+          networkName: 'Styde.net',
+        },
+        {
+          networkUrl: 'https://www.linkedin.com/in/jesusgarciav/',
+          networkTitle: 'LinkedIn',
+          networkLabel: 'JesusGarciaValadez LinkedIn Profile',
+          networkName: 'LinkedIn',
+        },
+      ],
+    };
+  },
 });
 </script>
