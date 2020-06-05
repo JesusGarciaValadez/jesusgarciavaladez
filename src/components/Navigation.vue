@@ -1,9 +1,9 @@
 <template>
   <fragment>
     <header
-      class="bg-white sm:rounded-b-none md:rounded-b-none lg:rounded-b-none
-    xl:rounded-b-none sm:rounded-lg p-4 sm:pt-10 md:pt-10 lg:pt-10 xl:pt-10 lg:mt-10 xl:mt-10
-    relative z-20 flex justify-between lg:justify-center xl:justify-center items-center"
+      class="bg-white rounded-none sm:rounded-b-none md:rounded-lg md:rounded-b-none lg:rounded-lg lg:rounded-b-none
+      xl:rounded-lg xl:rounded-b-none xl:rounded-b-none p-4 pt-4 sm:pt-4 md:pt-4 lg:pt-10 xl:pt-10 lg:mt-10 xl:mt-10
+      relative z-20 flex justify-between lg:justify-center xl:justify-center items-center"
     >
       <div class="flex md:block lg:flex lg:flex-col items-center max-w-full">
         <div class="mb-0 md:mb-4 lg:mb-0 flex flex-no-shrink pr-4 md:pr-6 lg:pr-0" role="banner">
