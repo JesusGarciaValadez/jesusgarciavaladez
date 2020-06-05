@@ -36,8 +36,7 @@
         </p>
         <p class="my-4">
           Also, I work a lot in my soft skills as to how to make a hiring process, how to give feedback, how to help
-          another’s, how to manage my time, etc. Also, I’m working very hard to have a better performance in my English
-          level (my mother tongue is Spanish). I’m still learning English at an advanced level.
+          coworkers without beign invasive, how to manage my time, etc.
         </p>
         <p class="my-4">
           I can add that if I don’t know some technology, I can learn it really fast.
