@@ -20,6 +20,7 @@
     "@nuxt/typescript-runtime": "^1.0.0",
     "@nuxtjs/axios": "^5.12.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
+    "@tailwindcss/ui": "^0.4.0",
     "autoprefixer": "^9.8.5",
     "cssnano": "^4.1.10",
     "nuxt": "^2.14.0",

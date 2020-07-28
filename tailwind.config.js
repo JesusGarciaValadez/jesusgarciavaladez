@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: {
     enabled: false,
@@ -11,8 +13,11 @@ module.exports = {
         lg: '1024px',
         xl: '1280px',
       },
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
   variants: {},
-  plugins: [],
-};
+  plugins: [require('@tailwindcss/ui')],
+}
