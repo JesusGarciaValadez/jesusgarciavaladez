@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+  <head {{ HEAD_ATTRS }}>
+    {{ HEAD }}
+  </head>
+  <body {{ BODY_ATTRS }} class="bg-blue-700 font-sans antialiased leading-tight">
+    {{ APP }}
+    <!-- A little help for the Netlify post-processing bots -->
+    <form class="hidden" action="/thank-you" name="contact-form" method="POST" data-netlify="true"
+          data-netlify-honeypot="bot-field" role="form" hidden aria-hidden="true">
+      <input type="hidden" name="form-name" value="contact-form" />
+      <p class="block my-4">
+        <input class="block rounded px-4 py-2 border-gray-400 border-current border-2 w-full
+        placeholder-gray-500 focus:outline-none" type="text" name="name" id="name"
+               placeholder="Name" role="textbox" aria-placeholder="name" required
+               aria-labelledby="name" aria-required="true" />
+      </p>
+      <p class="block my-4">
+        <input class="block rounded px-4 py-2 border-gray-400 border-current border-2 w-full
+        placeholder-gray-500 focus:outline-none" type="email" name="email" id="email"
+               placeholder="email" role="textbox" aria-placeholder="email" required
+               aria-labelledby="email" aria-required="true" />
+      </p>
+      <p class="block my-4">
+        <textarea class="block rounded px-4 py-2 border-gray-400 border-current border-2 h-64
+        w-full placeholder-gray-500 focus:outline-none" name="message" id="message"
+                  placeholder="message" role="textbox" aria-placeholder="message" required
+                  aria-describedby="messsage" aria-required="true"></textarea>
+      </p>
+      <p class="block my-4">
+        <button class="px-4 py-2 bg-blue-700 text-gray-100 rounded-lg shadow-lg" type="submit"
+                role="button" aria-describedby="submit" aria-label="send message">Send</button>
+      </p>
+    </form>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+  </body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167526450-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-167526450-1');
+  </script>
+</html>
