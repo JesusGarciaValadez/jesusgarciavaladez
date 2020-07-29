@@ -19,8 +19,10 @@
           >
             This is Jesús García Valadez</a
           >, I’m a full-stack developer who loves front-end, working with
-          <strong class="text-cool-gray-500 font-bold">Laravel</strong> and
-          <strong class="text-cool-gray-500 font-bold">Vue</strong>.
+          <strong class="text-cool-gray-500 font-bold">Laravel</strong>,
+          <strong class="text-cool-gray-500 font-bold">Vue</strong>,
+          <strong class="text-cool-gray-500 font-bold">React</strong> and
+          <strong class="text-cool-gray-500 font-bold">Node</strong>.
         </p>
         <p class="my-4">
           You can know all <nuxt-link
@@ -48,9 +50,7 @@
             to="/community"
             role="link"
             aria-label="Community"
-            >community.</nuxt-link
-          >
-          links
+            >community</nuxt-link> links
         </p>
         <p class="my-4">
           In 2017, I also started to do some works as a freelance and left my

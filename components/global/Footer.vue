@@ -13,17 +13,17 @@
           </nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/works" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">
+          <nuxt-link to="/works" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">
             Works
           </nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/technologies" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">
+          <nuxt-link to="/technologies" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">
             Technologies
           </nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/community" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">
+          <nuxt-link to="/community" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">
             Community
           </nuxt-link>
         </div>
@@ -49,10 +49,10 @@
         </a>
       </div>
       <div class="mt-8">
-        <p class="text-center text-base leading-6 text-gray-400">
+        <p class="text-center text-base leading-6 text-cool-gray-400">
           &copy; 2020 Jesús García. All rights reserved.
         </p>
-        <p class="text-center text-base leading-6 text-gray-400">
+        <p class="text-center text-base leading-6 text-cool-gray-400">
           This portfolio was made with <span><Heart /></span> using TailwindCSS, and Nuxt.
         </p>
       </div>
