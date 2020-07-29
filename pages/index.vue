@@ -4,7 +4,7 @@
   >
     <div class="max-w-2xl m-auto font-sans">
       <div class="mb-10 flex flex-row items-center justify-center">
-        <Photo className="h-10 w-10 md:h-12 md:w-12 lg:h-64 lg:w-64 rounded-full" />
+        <Photo className="h-24 w-24 sm:h-32 sm:w-32 md:h-48 md:w-48 lg:h-64 lg:w-64 rounded-full" />
       </div>
 
       <h2 class="text-2xl font-extrabold text-gray-900 mb-4" role="heading">

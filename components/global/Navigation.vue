@@ -115,7 +115,7 @@
     </nav>
     <header class="py-10">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl leading-9 font-bold text-white">
+        <h1 class="text-2xl md:text-3xl leading-9 font-bold text-white">
           Jesús García | {{
             this.$route.name === 'index'
             ? 'Full-Stack Software Engineer'
