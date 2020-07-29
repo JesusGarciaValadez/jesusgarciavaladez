@@ -1,56 +1,17 @@
 <template>
-  <div id="app" class="py-8 lg:py-16 px-6 md:px-16 lg:px-24">
-    <navigation></navigation>
-    <Nuxt />
+  <div id="app">
+    <Navigation />
+
+    <main class="-mt-32">
+      <div class="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-lg shadow px-5 py-6 sm:px-6">
+          <div class="min-h-96">
+            <Nuxt />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <Footer />
   </div>
 </template>
-
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
-</style>

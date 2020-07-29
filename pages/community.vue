@@ -3,11 +3,11 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <h1 class="text-2xl font-extrabold text-gray-900 mb-4" role="heading">
-        Community & Education
-      </h1>
-      <div class="text-lg text-gray-900 leading-normal space-y-6">
-        <p class="my-4">You can see my spaces in social networks:</p>
+      <div class="font-sans text-lg text-gray-900 leading-normal space-y-6">
+        <div class="flex flex-shrink-0 flex-row items-center justify-center">
+          <ExternalLink />
+        </div>
+        <p class="my-4">You can see my social networks:</p>
         <ul
           class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
           role="list"
@@ -18,7 +18,7 @@
             class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
           >
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               :href="network.networkUrl"
               :title="network.networkTitle"
               target="_blank"
@@ -150,5 +150,7 @@
         ],
       }
     },
+    loading: true,
+    transition: 'test',
   })
 </script>

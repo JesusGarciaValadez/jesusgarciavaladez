@@ -3,10 +3,10 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <h1 class="text-2xl font-extrabold text-gray-900 mb-4" role="heading">
-        Technologies
-      </h1>
-      <div class="text-lg text-gray-900 leading-normal space-y-6">
+      <div class="font-sans text-lg text-gray-900 leading-normal space-y-6">
+        <div class="flex flex-shrink-0 flex-row items-center justify-center">
+          <Code />
+        </div>
         <p class="my-4">
           I learn and do some stuff with the next technologies:
         </p>
@@ -64,13 +64,13 @@
         </ul>
         <p class="my-4">
           I have a subscriptions in some learning sites as:
-          <strong class="text-blue-700 font-bold">Platzi</strong>,
-          <strong class="text-blue-700 font-bold"
+          <strong class="text-gray-500 font-bold">Platzi</strong>,
+          <strong class="text-gray-500 font-bold"
           >Styde (Laravel community)</strong
-          >, <strong class="text-blue-700 font-bold">Laracasts</strong>,
-          <strong class="text-blue-700 font-bold">Udemy</strong>. I love to
+          >, <strong class="text-gray-500 font-bold">Laracasts</strong>,
+          <strong class="text-gray-500 font-bold">Udemy</strong>. I love to
           learn, you know. Also I attend a couple of
-          <strong class="text-blue-700 font-blue">Google</strong>
+          <strong class="text-gray-500 font-blue">Google</strong>
           tech presentations and demos.
         </p>
         <p class="my-4">
@@ -132,5 +132,7 @@
         ],
       }
     },
+    loading: true,
+    transition: 'test'
   })
 </script>

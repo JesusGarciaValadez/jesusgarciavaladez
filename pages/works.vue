@@ -3,10 +3,10 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <h1 class="text-2xl font-extrabold text-gray-900 mb-4" role="heading">
-        Works
-      </h1>
-      <div class="text-lg text-gray-900 leading-normal space-y-6">
+      <div class="font-sans text-lg text-gray-900 leading-normal space-y-6">
+        <div class="flex flex-shrink-0 flex-row items-center justify-center">
+          <Briefcase />
+        </div>
         <p class="my-4">You can find some of my works here:</p>
         <ul
           class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
@@ -212,5 +212,7 @@
         ],
       }
     },
+    loading: true,
+    transition: 'test'
   })
 </script>

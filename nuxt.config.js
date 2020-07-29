@@ -34,7 +34,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/main.css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -101,5 +101,9 @@ export default {
       },
       order: (names, presets) => presets.cssnanoLast(names),
     },
+  },
+  router: {
+    linkActiveClass: '',
+    linkExactActiveClass: '',
   },
 }

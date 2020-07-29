@@ -3,10 +3,10 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <h1 class="text-2xl font-extrabold text-gray-900 mb-4" role="heading">
-        Uses
-      </h1>
-      <div class="text-lg text-gray-900 leading-normal space-y-6">
+      <div class="font-sans text-lg text-gray-900 leading-normal space-y-6">
+        <div class="flex flex-shrink-0 flex-row items-center justify-center">
+          <DesktopComputer />
+        </div>
         <h2 class="text-xl font-bold" role="heading">Workstation</h2>
         <ul
           class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
@@ -30,7 +30,7 @@
         >
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.jetbrains.com/es-es/phpstorm/"
               title="PHPStorm"
               target="_blank"
@@ -40,7 +40,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://github.com/tonsky/FiraCode"
               title="FiraCode"
               target="_blank"
@@ -49,7 +49,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.google.com/chrome/"
               title="Google Chrome"
               target="_blank"
@@ -58,7 +58,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb"
               title="Responsive Viewer Chrome Plugin"
               target="_blank"
@@ -68,7 +68,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.sequelpro.com/"
               title="Sequel Pro"
               target="_blank"
@@ -77,7 +77,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.iterm2.com/"
               title="iTerm2"
               target="_blank"
@@ -86,7 +86,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://github.com"
               title="Github"
               target="_blank"
@@ -95,7 +95,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.git-tower.com/"
               title="Tower"
               target="_blank"
@@ -110,7 +110,7 @@
         >
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.sketch.com/"
               title="Sketch App"
               target="_blank"
@@ -119,7 +119,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.pixelmator.com/"
               title="Pixelmator"
               target="_blank"
@@ -128,7 +128,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://codekitapp.com/"
               title="Codekit 2"
               target="_blank"
@@ -137,7 +137,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://sipapp.io/"
               title="Sip"
               target="_blank"
@@ -152,7 +152,7 @@
         >
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://netlify.com/"
               title="Netlify"
               target="_blank"
@@ -161,7 +161,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://forge.laravel.com/"
               title="Laravel Forge"
               target="_blank"
@@ -170,7 +170,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://m.do.co/c/e74d9cccce78"
               title="Digital Ocean"
               target="_blank"
@@ -179,7 +179,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.vultr.com/?ref=7224915"
               title="Vultr"
               target="_blank"
@@ -188,7 +188,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://envoyer.io/"
               title="Envoyer"
               target="_blank"
@@ -197,7 +197,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://aws.amazon.com/"
               title="AWS"
               target="_blank"
@@ -214,7 +214,7 @@
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">Apple Mail</li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://www.dropbox.com/"
               title="Dropbox"
               target="_blank"
@@ -223,7 +223,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://1password.com/"
               title="1Password"
               target="_blank"
@@ -232,7 +232,7 @@
           </li>
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://1.1.1.1/"
               title="1.1.1.1 + WARP"
               target="_blank"
@@ -247,7 +247,7 @@
         >
           <li class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0">
             <a
-              class="text-blue-700 font-bold underline"
+              class="text-gray-500 font-bold underline"
               href="https://mailchimp.com/"
               title="Mailchimp"
               target="_blank"
@@ -261,5 +261,8 @@
 </template>
 
 <script lang="ts">
-export default {}
+  export default {
+    loading: true,
+    transition: 'test'
+  }
 </script>
