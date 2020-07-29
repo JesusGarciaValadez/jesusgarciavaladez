@@ -18,19 +18,19 @@
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium focus:outline-none focus:text-white focus:bg-gray-700"
                   >Home</nuxt-link>
                   <nuxt-link
-                    to="/about"
-                    :class="isAbout
+                    to="/experience"
+                    :class="isExperience
                       ? 'text-white bg-gray-900'
                       : 'text-gray-300 hover:text-white hover:bg-gray-700'"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium focus:outline-none focus:text-white focus:bg-gray-700"
-                  >About Me</nuxt-link>
+                  >Experience</nuxt-link>
                   <nuxt-link
-                    to="/works"
-                    :class="isWorks
+                    to="/portfolio"
+                    :class="isPortfolio
                       ? 'text-white bg-gray-900'
                       : 'text-gray-300 hover:text-white hover:bg-gray-700'"
                     class="ml-4 px-3 py-2 rounded-md text-sm font-medium focus:outline-none focus:text-white focus:bg-gray-700"
-                  >Works</nuxt-link>
+                  >Portfolio</nuxt-link>
                   <nuxt-link
                     to="/technologies"
                     :class="isTechnologies
@@ -104,11 +104,41 @@
       >
         <div :class="isOn ? 'block' : 'hidden'" class="border-b border-gray-700 md:hidden">
           <div class="px-2 py-3 sm:px-3">
-            <nuxt-link to="/" class="block px-3 py-2 rounded-md text-base font-medium text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700">Home</nuxt-link>
-            <nuxt-link to="/about" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">About Me</nuxt-link>
-            <nuxt-link to="/works" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Works</nuxt-link>
-            <nuxt-link to="/technologies" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Technologies</nuxt-link>
-            <nuxt-link to="/community" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Community</nuxt-link>
+            <nuxt-link
+              to="/"
+              :class="isHome
+                ? 'text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700'
+                : 'text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700'"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-medium"
+            >Home</nuxt-link>
+            <nuxt-link
+              to="/experience"
+              :class="isExperience
+                ? 'text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700'
+                : 'text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700'"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-medium"
+            >Experience</nuxt-link>
+            <nuxt-link
+              to="/portfolio"
+              :class="isPortfolio
+                ? 'text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700'
+                : 'text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700'"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-medium"
+            >Porftolio</nuxt-link>
+            <nuxt-link
+              to="/technologies"
+              :class="isTechnologies
+                ? 'text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700'
+                : 'text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700'"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-medium"
+            >Technologies</nuxt-link>
+            <nuxt-link
+              to="/community"
+              :class="isCommunity
+                ? 'text-white bg-gray-900 focus:outline-none focus:text-white focus:bg-gray-700'
+                : 'text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700'"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-medium"
+            >Community</nuxt-link>
           </div>
         </div>
       </transition>
@@ -142,11 +172,11 @@
       isHome: function () {
         return this.$route.name === 'index'
       },
-      isAbout: function () {
-        return this.$route.name === 'about'
+      isExperience: function () {
+        return this.$route.name === 'experience'
       },
-      isWorks: function () {
-        return this.$route.name === 'works'
+      isPortfolio: function () {
+        return this.$route.name === 'portfolio'
       },
       isTechnologies: function () {
         return this.$route.name === 'technologies'

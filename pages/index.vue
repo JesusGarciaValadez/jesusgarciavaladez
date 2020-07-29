@@ -27,17 +27,16 @@
         <p class="my-4">
           You can know all <nuxt-link
           class="text-gray-500 font-bold underline"
-          to="/about"
+          to="/experience"
           role="link"
-          aria-label="About Me"
-        >about me</nuxt-link> and my work about software development
-          through my
+          aria-label="Experience"
+        >about my experience</nuxt-link> and my work about software development through my
           <nuxt-link
             class="text-gray-500 font-bold underline"
-            to="/works"
+            to="/portfolio"
             role="link"
-            aria-label="Works"
-            >works,
+            aria-label="Portfolio"
+            >porfolio,
           </nuxt-link>
           <nuxt-link
             class="text-gray-500 font-bold underline"
