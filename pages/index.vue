@@ -8,7 +8,7 @@
       </div>
 
       <h2 class="text-2xl font-extrabold text-gray-900 mb-4" role="heading">
-        Who am I and what I do?
+        Who am I, and what I do?
       </h2>
       <div class="text-lg text-gray-900 leading-normal space-y-6">
         <p class="my-4" role="">
