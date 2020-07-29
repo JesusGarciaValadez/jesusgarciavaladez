@@ -3,13 +3,13 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <div class="font-sans text-lg text-gray-900 leading-normal space-y-6">
+      <div class="font-sans font-light text-cool-gray-600 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <Briefcase />
         </div>
         <p class="my-4">You can find some of my works here:</p>
         <ul
-          class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
+          class="list-disc pl-5 w-full"
           role="list"
         >
           <WorkOnlineList
@@ -18,11 +18,9 @@
             :work="work"
           ></WorkOnlineList>
         </ul>
-        <h2 class="my-4" role="heading">
-          Some clients for whose projects I worked:
-        </h2>
+        <h2 class="text-1xl font-extrabold mb-4" role="heading">Some clients for whose projects I worked:</h2>
         <ul
-          class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
+          class="list-disc pl-5 w-full"
           role="list"
         >
           <WorkOfflineList

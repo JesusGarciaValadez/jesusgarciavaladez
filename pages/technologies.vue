@@ -3,18 +3,14 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <div class="font-sans text-lg text-gray-900 leading-normal space-y-6">
+      <div class="font-sans font-light text-cool-gray-600 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <Code />
         </div>
-        <p class="my-4">
-          I learn and do some stuff with the next technologies:
-        </p>
-        <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">
-          Front-end
-        </h2>
+        <p class="my-4">I learn and do some stuff with the next technologies:</p>
+        <h2 class="text-1xl font-extrabold mb-4" role="heading">Front-end</h2>
         <ul
-          class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
+          class="list-disc pl-5 w-full"
           role="list"
         >
           <TechnologyList
@@ -23,11 +19,9 @@
             :technology="tech"
           ></TechnologyList>
         </ul>
-        <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">
-          Back-end
-        </h2>
+        <h2 class="text-1xl font-extrabold mb-4" role="heading">Back-end</h2>
         <ul
-          class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
+          class="list-disc pl-5 w-full"
           role="list"
         >
           <TechnologyList
@@ -36,11 +30,9 @@
             :technology="tech"
           ></TechnologyList>
         </ul>
-        <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">
-          DevOps
-        </h2>
+        <h2 class="text-1xl font-extrabold mb-4" role="heading">DevOps</h2>
         <ul
-          class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
+          class="list-disc pl-5 w-full"
           role="list"
         >
           <TechnologyList
@@ -49,11 +41,9 @@
             :technology="tech"
           ></TechnologyList>
         </ul>
-        <h2 class="text-1xl font-extrabold text-gray-900 mb-4" role="heading">
-          Marketing
-        </h2>
+        <h2 class="text-1xl font-extrabold mb-4" role="heading">Marketing</h2>
         <ul
-          class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
+          class="list-disc pl-5 w-full"
           role="list"
         >
           <TechnologyList
@@ -64,13 +54,13 @@
         </ul>
         <p class="my-4">
           I have a subscriptions in some learning sites as:
-          <strong class="text-gray-500 font-bold">Platzi</strong>,
-          <strong class="text-gray-500 font-bold"
+          <strong class="text-cool-gray-500 font-bold">Platzi</strong>,
+          <strong class="text-cool-gray-500 font-bold"
           >Styde (Laravel community)</strong
-          >, <strong class="text-gray-500 font-bold">Laracasts</strong>,
-          <strong class="text-gray-500 font-bold">Udemy</strong>. I love to
+          >, <strong class="text-cool-gray-500 font-bold">Laracasts</strong>,
+          <strong class="text-cool-gray-500 font-bold">Udemy</strong>. I love to
           learn, you know. Also I attend a couple of
-          <strong class="text-gray-500 font-blue">Google</strong>
+          <strong class="text-cool-gray-500 font-blue">Google</strong>
           tech presentations and demos.
         </p>
         <p class="my-4">

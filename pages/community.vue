@@ -3,13 +3,13 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <div class="font-sans text-lg text-gray-900 leading-normal space-y-6">
+      <div class="font-sans font-light text-cool-gray-600 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <ExternalLink />
         </div>
         <p class="my-4">You can see my social networks:</p>
         <ul
-          class="list-disc pl-5 w-full text-sm sm:text-lg md:text-lg lg:text-lg xl:text-lg"
+          class="list-disc pl-5 w-full"
           role="list"
         >
           <li
@@ -18,7 +18,7 @@
             class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
           >
             <a
-              class="text-gray-500 font-bold underline"
+              class="text-cool-gray-500 underline"
               :href="network.networkUrl"
               :title="network.networkTitle"
               target="_blank"
