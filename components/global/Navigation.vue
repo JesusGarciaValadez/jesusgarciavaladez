@@ -15,35 +15,35 @@
                     :class="isHome
                       ? 'text-white bg-cool-gray-900'
                       : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700'"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
                   >Home</nuxt-link>
                   <nuxt-link
                     to="/experience"
                     :class="isExperience
-                      ? 'text-white bg-gray-900'
+                      ? 'text-white bg-cool-gray-900'
                       : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700'"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
                   >Experience</nuxt-link>
                   <nuxt-link
                     to="/portfolio"
                     :class="isPortfolio
-                      ? 'text-white bg-gray-900'
+                      ? 'text-white bg-cool-gray-900'
                       : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700'"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
                   >Portfolio</nuxt-link>
                   <nuxt-link
                     to="/technologies"
                     :class="isTechnologies
-                      ? 'text-white bg-gray-900'
+                      ? 'text-white bg-cool-gray-900'
                       : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700'"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
                   >Technologies</nuxt-link>
                   <nuxt-link
                     to="/community"
                     :class="isCommunity
-                      ? 'text-white bg-gray-900'
+                      ? 'text-white bg-cool-gray-900'
                       : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700'"
-                    class="ml-4 px-3 py-2 rounded-md text-sm font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+                    class="ml-4 px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
                   >Community</nuxt-link>
                 </div>
               </div>
@@ -109,35 +109,35 @@
               :class="isHome
                 ? 'text-white bg-cool-gray-900 '
                 : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700 '"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
             >Home</nuxt-link>
             <nuxt-link
               to="/experience"
               :class="isExperience
                 ? 'text-white bg-cool-gray-900 '
                 : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700 '"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
             >Experience</nuxt-link>
             <nuxt-link
               to="/portfolio"
               :class="isPortfolio
                 ? 'text-white bg-cool-gray-900 '
                 : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700 '"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
             >Porftolio</nuxt-link>
             <nuxt-link
               to="/technologies"
               :class="isTechnologies
                 ? 'text-white bg-cool-gray-900 '
                 : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700 '"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
             >Technologies</nuxt-link>
             <nuxt-link
               to="/community"
               :class="isCommunity
                 ? 'text-white bg-cool-gray-900 '
                 : 'text-cool-gray-300 hover:text-white hover:bg-cool-gray-700 '"
-              class="mt-1 block px-3 py-2 rounded-md text-base font-medium font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
+              class="mt-1 block px-3 py-2 rounded-md text-base font-sans focus:outline-none focus:text-white focus:bg-cool-gray-700"
             >Community</nuxt-link>
           </div>
         </div>

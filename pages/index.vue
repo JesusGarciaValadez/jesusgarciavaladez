@@ -18,25 +18,25 @@
             aria-label="Jesús García's Twitter account"
           >
             This is Jesús García Valadez</a
-          >, I’m a full-stack developer who loves front-end, working with
+          >, I’m a full-stack developer who loves front-end. I have a lot of experience working with
           <strong class="text-cool-gray-500 font-bold">Laravel</strong>,
           <strong class="text-cool-gray-500 font-bold">Vue</strong>,
-          <strong class="text-cool-gray-500 font-bold">React</strong> and
+          <strong class="text-cool-gray-500 font-bold">React</strong>, and
           <strong class="text-cool-gray-500 font-bold">Node</strong>.
         </p>
         <p class="my-4">
-          You can know all <nuxt-link
+          You can know everything about my <nuxt-link
           class="text-cool-gray-500 underline"
           to="/experience"
           role="link"
           aria-label="Experience"
-        >about my experience</nuxt-link> and my work about software development through my
+        >experience</nuxt-link> and my work in software development through my
           <nuxt-link
             class="text-cool-gray-500 underline"
             to="/portfolio"
             role="link"
             aria-label="Portfolio"
-            >porfolio,
+            >portfolio,
           </nuxt-link>
           <nuxt-link
             class="text-cool-gray-500 underline"
@@ -52,21 +52,15 @@
             aria-label="Community"
             >community</nuxt-link> links
         </p>
+        <p class="my-4">In 2017, I also started doing some works as a freelance and quit my job to make things full-time.</p>
         <p class="my-4">
-          In 2017, I also started to do some works as a freelance and left my
-          job to make things full-time.
-        </p>
-        <p class="my-4">
-          Curious about how I work? Check out my
+          You're curious about how I work? Check out my
           <nuxt-link
             class="text-cool-gray-500 underline"
             to="uses"
             role="link"
             aria-label="Uses"
-            >uses</nuxt-link
-          >
-          page for a full list of all the software, gadgets, and services I use.
-        </p>
+            >uses</nuxt-link> page for a full list of all the software, gadgets, and services I use.</p>
       </div>
     </div>
   </main>

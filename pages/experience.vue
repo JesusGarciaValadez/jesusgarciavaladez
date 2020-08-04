@@ -8,55 +8,40 @@
           <UserCircle />
         </div>
         <p class="my-4">
-          I’m a developer since 2009 at a marketing and development agency. I
-          begin as a front-end dev but, I also did some basic back-end tasks
-          since then. I learned about
-          <strong class="text-cool-gray-500 font-bold">JavaScript</strong> (<strong
-            class="text-cool-gray-500 font-bold"
-            >jQuery</strong
-          >, you know) and the beginning of the mobile development
+          I’m a developer since 2009. I started at <strong class="text-cool-gray-500 font-bold">Ingenia Agency</strong>
+          (formerly <strong class="text-cool-gray-500 font-bold">Ingenia Group</strong>) a marketing and development
+          agency as a front-end dev but, I also did some basic back-end tasks since then.
+        <p>
+        <p class="my-4">
+          After that, I was CTO at <strong class="text-cool-gray-500 font-bold">CMV | R&R</strong>
+          (formerly just <strong class="text-cool-gray-500 font-bold">CMV</strong>), another marketing agency.
+          Also, I managed all the aspects of the developments for the clients of the agency.
         </p>
         <p class="my-4">
-          After that, I was
-          <strong class="text-cool-gray-500 font-bold">CTO</strong> at another
-          marketing agency. I learned a lot about marketing (email marketing,
-          how to set a campaign, conversion pixels, how to set a target, etc).
-          Also, I managed all about the developments for the clients of the
-          agency (how to make
-          <strong class="text-cool-gray-500 font-bold">DevOps</strong> for each
-          project, how to manage a team, Agile processes, how to improve the
-          performance of the build of each project since testing, use of which
-          <strong class="text-cool-gray-500 font-bold">CSS preprocessor</strong>, to
-          the use of what programming language for their CMS ). That experience
-          formed me as a manager and was full of challenges. Sometimes very
-          frustrating, but I learn a lot.
+          Later, I worked as a full-stack developer at <strong class="text-cool-gray-500 font-bold">Lunave Multimedios
+          </strong>, another marketing agency. I introduced the use of Laravel for 5 in some developments
+          (one of them at my charge) with a little team of 5 devs. I can say that was my first touch with Laravel but
+          every development was a success. (I tend to learn quite fast).
         </p>
         <p class="my-4">
-          Later, I worked as a full-stack developer at another marketing agency.
-          I introduced the use of
-          <strong class="text-cool-gray-500 font-bold">Laravel</strong> for 5 of
-          their developments (one of them at my charge) with a little team of 5
-          devs. I can say that was my first touch with
-          <strong class="text-cool-gray-500 font-bold"> Laravel</strong> but every
-          development was a success. (I tend to learn quite fast). I started
-          with <strong class="text-cool-gray-500 font-bold">Laravel 5.0</strong> and
-          the use of <strong class="text-cool-gray-500 font-bold">Docker</strong> and
-          finished with the use of
-          <strong class="text-cool-gray-500 font-bold">CD/CI</strong> and
-          <strong class="text-cool-gray-500 font-bold">AWS</strong>.
+          With more self-confidence, I started a <strong class="text-cool-gray-500 font-bold">freelance job</strong>
+          doing a couple of projects. Some of my work was making a CMS for
+          <strong class="text-cool-gray-500 font-bold">Rolve Inmobiliaria</strong>. Another one was as a consultor at
+          <strong class="text-cool-gray-500 font-bold">Legalario</strong> (A Mexican startup that created legal
+          documents) giving some advice and consultatory. And one development and consultatory using Laravel with web
+          components for <strong class="text-cool-gray-500 font-bold">Logikoss</strong> (A Mexican startup that does a
+          lot about package logistics management).
         </p>
         <p class="my-4">
-          With more self-confidence, I started a freelance job doing a couple of
-          projects. A couple of them as a consultor (<strong
-            class="text-cool-gray-500 font-bold"
-            >Laravel, Angular JS, Vue</strong
-          >), and one development using
-          <strong class="text-cool-gray-500 font-bold">Laravel</strong> with
-          <strong class="text-cool-gray-500 font-bold">web components</strong>
-          (<strong class="text-cool-gray-500 font-bold">Laravel, Vue, AWS</strong>).
-          That time was full of self-knowledge about how to work remotely, how
-          to self-organized, and how to be a student of new technologies in my
-          free time as a hobby.
+          That time was full of self-knowledge about how to work remotely, how to self-organized, and how to be a
+          student of new technologies in my free time as a hobby.
+        </p>
+        <p class="my-4">
+          Today I'm a Senior Software Engineer II at <strong class="text-cool-gray-500 font-bold">Linio Mexico</strong>.
+          <strong class="text-cool-gray-500 font-bold">Linio</strong> is an eCommerce startup that was bought by
+          <strong class="text-cool-gray-500 font-bold">Falabella</strong> in 2018. Currently, I'm doing back-end tasks
+          for the Finance, Invoice, and Conciliation Squad with the objective to make the invoice process quite fast
+          and reducing the invoice errors and rejections rate at 94% in the last year.
         </p>
       </div>
     </div>

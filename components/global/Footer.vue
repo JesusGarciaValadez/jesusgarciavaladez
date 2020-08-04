@@ -3,29 +3,19 @@
     <div class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
       <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
         <div class="px-5 py-2">
-          <nuxt-link to="/" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">
-            Home
-          </nuxt-link>
+          <nuxt-link to="/" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">Home</nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/about" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">
-            About Me
-          </nuxt-link>
+          <nuxt-link to="/about" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">About Me</nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/works" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">
-            Works
-          </nuxt-link>
+          <nuxt-link to="/works" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">Works</nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/technologies" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">
-            Technologies
-          </nuxt-link>
+          <nuxt-link to="/technologies" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">Technologies</nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/community" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">
-            Community
-          </nuxt-link>
+          <nuxt-link to="/community" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">Community</nuxt-link>
         </div>
       </nav>
       <div class="mt-8 flex justify-center">
@@ -49,12 +39,8 @@
         </a>
       </div>
       <div class="mt-8">
-        <p class="text-center text-base leading-6 text-cool-gray-400">
-          &copy; 2020 Jesús García. All rights reserved.
-        </p>
-        <p class="text-center text-base leading-6 text-cool-gray-400">
-          This portfolio was made with <span><Heart /></span> using TailwindCSS, and Nuxt.
-        </p>
+        <p class="text-center text-base leading-6 text-cool-gray-400">&copy; 2020 Jesús García. All rights reserved.</p>
+        <p class="text-center text-base leading-6 text-cool-gray-400">This portfolio was made with <span><Heart /></span> using TailwindCSS, and Nuxt.</p>
       </div>
     </div>
   </div>

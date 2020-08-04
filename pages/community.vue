@@ -7,7 +7,7 @@
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <ExternalLink />
         </div>
-        <p class="my-4">You can see my social networks:</p>
+        <p class="my-4">You can find me in:</p>
         <ul
           class="list-disc pl-5 w-full"
           role="list"
@@ -29,7 +29,7 @@
             >
           </li>
         </ul>
-        <p class="my-4">Want to contact me? Gimme a shout out:</p>
+        <p class="my-4">Want to contact me? Gimme a shout:</p>
         <form
           action="/thank-you"
           class="block"
