@@ -6451,11 +6451,6 @@ header-case@^2.0.3:
     capital-case "^1.0.3"
     tslib "^1.10.0"
 
-heroicons@^0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-0.3.7.tgz#0ec4c093fa9db4d8f4fa17e38af8b6a19be59833"
-  integrity sha512-2fhfSKuPpFIYaLshYL/BV+b/S4hES9Ykh0nNt0adU6l4W5gAwhmkXfYRyxWsayrdHZBr6oc4pLqyedRJk3wWRA==
-
 hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
@@ -10325,9 +10320,9 @@ pretty@^2.0.0:
     js-beautify "^1.6.12"
 
 prismjs@^1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.20.0.tgz#9b685fc480a3514ee7198eac6a3bf5024319ff03"
-  integrity sha512-AEDjSrVNkynnw6A+B1DsFkd6AVdTnp+/WoUixFRULlCLZVRZlVQMVWio/16jv7G1FscUxQxOQhWwApgbnxr6kQ==
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.21.0.tgz#36c086ec36b45319ec4218ee164c110f9fc015a3"
+  integrity sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw==
   optionalDependencies:
     clipboard "^2.0.0"
 
