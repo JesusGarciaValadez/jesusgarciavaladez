@@ -6,10 +6,10 @@
           <nuxt-link to="/" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">Home</nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/about" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">About Me</nuxt-link>
+          <nuxt-link to="/experience" class="text-base leading-6 text-cool-gray-500 hover:text-gray-900">Experience</nuxt-link>
         </div>
         <div class="px-5 py-2">
-          <nuxt-link to="/works" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">Works</nuxt-link>
+          <nuxt-link to="/portfolio" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">Portfolio</nuxt-link>
         </div>
         <div class="px-5 py-2">
           <nuxt-link to="/technologies" class="text-base leading-6 text-cool-gray-500 hover:text-cool-gray-900">Technologies</nuxt-link>
