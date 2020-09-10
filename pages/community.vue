@@ -142,7 +142,7 @@
             networkName: 'Styde.net',
           },
           {
-            networkUrl: 'https://www.linkedin.com/in/jesusgarciav/',
+            networkUrl: 'https://www.linkedin.com/in/jesusgarciavaladez/',
             networkTitle: 'LinkedIn',
             networkLabel: 'JesusGarciaValadez LinkedIn Profile',
             networkName: 'LinkedIn',
