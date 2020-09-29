@@ -7,7 +7,7 @@
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <Code />
         </div>
-        <p class="my-4">I do some stuff with the next technologies:</p>
+        <p class="my-4">I do some stuff with the following technologies:</p>
         <h2 class="text-1xl font-extrabold mb-4" role="heading">Front-end</h2>
         <ul
           class="list-disc pl-5 w-full"
@@ -53,18 +53,11 @@
           ></TechnologyList>
         </ul>
         <p class="my-4">
-          I have a subscription in some learning sites as <strong class="text-cool-gray-500 font-bold">Platzi</strong>,
-          <strong class="text-cool-gray-500 font-bold">Styde</strong> (Laravel community),
-          <strong class="text-cool-gray-500 font-bold">Laracasts</strong>,
-          <strong class="text-cool-gray-500 font-bold">Udemy</strong>. I love to learn, you know.
-          Also, I attend a couple of Google tech presentations and demos.
-        </p>
-        <p class="my-4">
-          Also, I work a lot in my soft skills as to how to make a hiring process, how to give feedback, how to help
+          I work a lot in my soft skills as to how to make a hiring process, how to give feedback, how to help
           coworkers without being invasive, how to manage my time, etc.
         </p>
         <p class="my-4">
-          I can add that if I don’t know some technology, I can learn it really fast.
+          I can add that if I don’t know some technology, I can learn it fast.
         </p>
       </div>
     </div>

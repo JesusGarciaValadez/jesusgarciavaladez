@@ -29,7 +29,7 @@
             >
           </li>
         </ul>
-        <p class="my-4">Want to contact me? Gimme a shout:</p>
+        <p class="my-4">Want to contact me? Give me a shout:</p>
         <form
           action="/thank-you"
           class="block"

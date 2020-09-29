@@ -7,7 +7,7 @@
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <Briefcase />
         </div>
-        <p class="my-4">You can find some of my works here:</p>
+        <p class="my-4">You can find some of the most relevant works here:</p>
         <ul
           class="list-disc pl-5 w-full"
           role="list"
@@ -18,7 +18,7 @@
             :work="work"
           ></WorkOnlineList>
         </ul>
-        <h2 class="text-1xl font-extrabold mb-4" role="heading">Some clients for whose projects I worked:</h2>
+        <h2 class="text-1xl font-extrabold mb-4" role="heading">Some clients for whose projects I worked before:</h2>
         <ul
           class="list-disc pl-5 w-full"
           role="list"
@@ -36,6 +36,9 @@
 
 <script lang="ts">
   import Vue from "vue";
+  import Briefcase from '../components/global/Briefcase.vue'
+  import WorkOnlineList from '../components/WorkOnlineList.vue'
+  import WorkOfflineList from '../components/WorkOfflineList.vue'
 
   export default Vue.extend({
     data() {
@@ -52,26 +55,14 @@
             title: 'Rolve Inmobiliaria© Development (2018)',
             label: 'Rolve Inmobiliaria©',
             name:
-              'Rolve Inmobiliaria© Development (2018) (ask for credentials in order to test the project)',
+              'Rolve Inmobiliaria© Development (2018) (ask for credentials to test the project)',
           },
           {
             url: 'http://149.28.209.228/',
             title: 'Logikoss© Laravel Demo',
             label: 'Logikoss© Demo Project (2018)',
             name:
-              'Logikoss© Demo Project (2018) (ask for credentials in order to test the project)',
-          },
-          {
-            url: 'https://platzifood.netlify.app/',
-            title: 'PlatziFood',
-            label: 'PlatziFood Demo Project (2020)',
-            name: 'PlatziFood Demo Project (2020)',
-          },
-          {
-            url: 'http://104.207.150.215/',
-            title: 'Filter of projects',
-            label: 'Filter (2019)',
-            name: 'Filter (2019)',
+              'Logikoss© Demo Project (2018) (request for a user and password to see the project)',
           },
           {
             url: 'https://www.legalario.com/',
@@ -90,36 +81,6 @@
             title: 'AtlasMX App',
             label: 'AtlasMX App (2012)',
             name: 'AtlasMX App (2012)',
-          },
-          {
-            url: 'https://github.com/JesusGarciaValadez/TuTiendita',
-            title: 'TuTiendita',
-            label: 'TuTiendita (2019)',
-            name: 'TuTiendita (2019)',
-          },
-          {
-            url: 'https://github.com/JesusGarciaValadez/TuTienditaBackend',
-            title: 'TuTiendita API',
-            label: 'TuTiendita API (2019)',
-            name: 'TuTiendita API (2019)',
-          },
-          {
-            url: 'https://github.com/JesusGarciaValadez/local.frenchs.com',
-            title: "French's© Mustards Mexico Laravel Repository",
-            label: "French's© Mustards Mexico Repository",
-            name: "French's© Mustards Mexico Repository (2016)",
-          },
-          {
-            url: 'https://github.com/JesusGarciaValadez/defensa-medico-legal',
-            title: 'Defensory legal and medical Repository',
-            label: 'Defensory legal and medical Repository',
-            name: 'Defensory legal and medical Repository',
-          },
-          {
-            url: 'https://github.com/JesusGarciaValadez/local.iams.mars.com.mx',
-            title: 'IAMS Mars© Repository',
-            label: 'IAMS Mars© Repository',
-            name: 'IAMS Mars© Repository',
           },
         ],
         worksOffline: [
@@ -209,6 +170,11 @@
           },
         ],
       }
+    },
+    components: {
+      Briefcase,
+      WorkOnlineList,
+      WorkOfflineList,
     },
     loading: true,
     transition: 'test'

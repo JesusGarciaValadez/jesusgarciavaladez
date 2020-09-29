@@ -10,15 +10,15 @@
 
         <h2 class="text-2xl font-extrabold mb-4" role="heading">Who am I, and what I do?</h2>
         <p class="my-4">
-          Hi!
+          Hello!
           <a
             class="text-cool-gray-500 underline"
             href="https://twitter.com/JesusGarciaV_"
             role="link"
             aria-label="Jesús García's Twitter account"
           >
-            This is Jesús García Valadez</a
-          >, I’m a full-stack developer who loves front-end. I have a lot of experience working with
+            I’m Jesús García Valadez.</a
+          >. I’m a full-stack developer who loves front-end. I have a lot of experience working with
           <strong class="text-cool-gray-500 font-bold">Laravel</strong>,
           <strong class="text-cool-gray-500 font-bold">Vue</strong>,
           <strong class="text-cool-gray-500 font-bold">React</strong>, and
@@ -54,7 +54,7 @@
         </p>
         <p class="my-4">In 2017, I also started doing some works as a freelance and quit my job to make things full-time.</p>
         <p class="my-4">
-          You're curious about how I work? Check out my
+          You’re curious about how I work? Check out my
           <nuxt-link
             class="text-cool-gray-500 underline"
             to="uses"

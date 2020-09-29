@@ -9,8 +9,8 @@
         </div>
         <p class="my-4">
           I’m a developer since 2009. I started at <strong class="text-cool-gray-500 font-bold">Ingenia Agency</strong>
-          (formerly <strong class="text-cool-gray-500 font-bold">Ingenia Group</strong>) a marketing and development
-          agency as a front-end dev but, I also did some basic back-end tasks since then.
+          (formerly <strong class="text-cool-gray-500 font-bold">Ingenia Group</strong>), a marketing and development
+          agency, as a front-end dev but, I also did some basic back-end tasks since then.
         <p>
         <p class="my-4">
           After that, I was CTO at <strong class="text-cool-gray-500 font-bold">CMV | R&R</strong>
@@ -19,29 +19,29 @@
         </p>
         <p class="my-4">
           Later, I worked as a full-stack developer at <strong class="text-cool-gray-500 font-bold">Lunave Multimedios
-          </strong>, another marketing agency. I introduced the use of Laravel for 5 in some developments
-          (one of them at my charge) with a little team of 5 devs. I can say that was my first touch with Laravel but
-          every development was a success. (I tend to learn quite fast).
+          </strong>, another marketing agency. I introduced Laravel for 5 in some developments
+          (one of them at my charge) with a little team of 5 devs. I can say that it was my first touch with Laravel,
+          but every development was a success. (I tend to learn quite fast).
         </p>
         <p class="my-4">
           With more self-confidence, I started a <strong class="text-cool-gray-500 font-bold">freelance job</strong>
           doing a couple of projects. Some of my work was making a CMS for
           <strong class="text-cool-gray-500 font-bold">Rolve Inmobiliaria</strong>. Another one was as a consultor at
           <strong class="text-cool-gray-500 font-bold">Legalario</strong> (A Mexican startup that created legal
-          documents) giving some advice and consultatory. And one development and consultatory using Laravel with web
+          documents), giving some advice and consultatory. And one development and consultatory using Laravel with web
           components for <strong class="text-cool-gray-500 font-bold">Logikoss</strong> (A Mexican startup that does a
           lot about package logistics management).
         </p>
         <p class="my-4">
-          That time was full of self-knowledge about how to work remotely, how to self-organized, and how to be a
-          student of new technologies in my free time as a hobby.
+          That time was full of self-knowledge about working remotely, how to self-organized, and how to be a student of
+          new technologies in my free time as a hobby.
         </p>
         <p class="my-4">
-          Today I'm a Senior Software Engineer II at <strong class="text-cool-gray-500 font-bold">Linio Mexico</strong>.
+          Today I’m a Senior Software Engineer II at <strong class="text-cool-gray-500 font-bold">Linio Mexico</strong>.
           <strong class="text-cool-gray-500 font-bold">Linio</strong> is an eCommerce startup that was bought by
-          <strong class="text-cool-gray-500 font-bold">Falabella</strong> in 2018. Currently, I'm doing back-end tasks
-          for the Finance, Invoice, and Conciliation Squad with the objective to make the invoice process quite fast
-          and reducing the invoice errors and rejections rate at 94% in the last year.
+          <strong class="text-cool-gray-500 font-bold">Falabella</strong> in 2018. Currently, I’m doing back-end tasks
+          for the Finance, Invoice, and Conciliation Squad to make the invoice process quite fast and to reduce the
+          invoice errors and rejections rate at 94% in the last year.
         </p>
       </div>
     </div>
