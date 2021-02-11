@@ -45,6 +45,12 @@
       return {
         worksOnline: [
           {
+            url: 'http://149.28.220.35/',
+            title: 'Calculator Laravel/VueJS',
+            label: 'CalcuLaraVue',
+            name: 'CalcuLaraVue',
+          },
+          {
             url: 'https://www.linio.com/',
             title: 'Linio©',
             label: 'Linio© (2018-2020)',
