@@ -97,28 +97,10 @@
             name: 'Rotoplas© International (2009)',
           },
           {
-            url: 'http://www.asur.com.mx/',
-            title: 'ASUR© SouthEast Airports',
-            label: 'ASUR© SouthEast Airports (2007-2008)',
-            name: 'ASUR© SouthEast Airports (2007-2008)',
-          },
-          {
             url: 'https://grupobimbo.com/es',
             title: 'Bimbo© Group',
             label: 'Bimbo© Group (2008)',
             name: 'Bimbo© Group (2008)',
-          },
-          {
-            url: 'https://axa.mx/',
-            title: 'AXA© Seguros',
-            label: 'AXA© Seguros | AXA© Insurances (2015)',
-            name: 'AXA© Seguros | AXA© Insurances (2015)',
-          },
-          {
-            url: 'https://giovannibojanini.es/',
-            title: 'Giovanni Bojanini©',
-            label: 'Giovanni Bojanini© Mexico & Argentina (2014)',
-            name: 'Giovanni Bojanini© Mexico & Argentina (2014)',
           },
           {
             url: 'http://www.angloamericano.com.mx/',
@@ -137,30 +119,6 @@
             title: 'México Desconocido©',
             label: 'México Desconocido© (2010)',
             name: 'México Desconocido© (2010)',
-          },
-          {
-            url: 'http://www.ingeniahosting.com/',
-            title: 'Ingenia Hosting©',
-            label: 'Ingenia Hosting© (2010)',
-            name: 'Ingenia Hosting© (2010)',
-          },
-          {
-            url: 'https://gsea.org/apply/',
-            title: 'Global Student Entrepreneur Awards 2008 - 2009',
-            label: 'Global Student Entrepreneur Awards (2009-2010)',
-            name: 'Global Student Entrepreneur Awards (2009-2010)',
-          },
-          {
-            url: 'https://www.saludymedicinas.com.mx/',
-            title: 'Health & Medicines',
-            label: 'Health & Medicines (2009)',
-            name: 'Health & Medicines (2009)',
-          },
-          {
-            url: 'https://www.vonwobeser.com/',
-            title: 'Von Wobeser©',
-            label: 'Von Wobeser© (2008)',
-            name: 'Von Wobeser© (2008)',
           },
           {
             url: 'https://www.walmex.mx/',
