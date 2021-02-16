@@ -61,27 +61,21 @@
             title: 'Rolve Inmobiliaria© Development (2018)',
             label: 'Rolve Inmobiliaria©',
             name:
-              'Rolve Inmobiliaria© Development (2018) (ask for credentials to test the project)',
+              'Rolve Inmobiliaria© Development (2018) (jesus.garciav@me.com:hydra)',
           },
           {
             url: 'http://149.28.209.228/',
             title: 'Logikoss© Laravel Demo',
             label: 'Logikoss© Demo Project (2018)',
             name:
-              'Logikoss© Demo Project (2018) (request for a user and password to see the project)',
+              'Logikoss© Demo Project (2018) (jesus.garciav@me.com:hydrastudio)',
           },
           {
             url: 'https://www.legalario.com/',
             title: 'Legalario©',
             label: 'Legalario© (2018)',
             name: 'Legalario© (2018)',
-          },
-          {
-            url: 'https://cupon-kidzania-mx.netlify.app/',
-            title: 'Kidzania© Coupon',
-            label: 'Kidzania© Code Redeemer Demo (2015)',
-            name: 'Kidzania© Code Redeemer Demo (2015)',
-          },
+          }
         ],
         worksOffline: [
           {
