@@ -57,20 +57,6 @@
             name: 'Linio© (2018-2020)',
           },
           {
-            url: 'http://144.202.105.193/',
-            title: 'Rolve Inmobiliaria© Development (2018)',
-            label: 'Rolve Inmobiliaria©',
-            name:
-              'Rolve Inmobiliaria© Development (2018) (::hydra)',
-          },
-          {
-            url: 'http://149.28.209.228/',
-            title: 'Logikoss© Laravel Demo',
-            label: 'Logikoss© Demo Project (2018)',
-            name:
-              'Logikoss© Demo Project (2018) (::hydrastudio)',
-          },
-          {
             url: 'https://www.legalario.com/',
             title: 'Legalario©',
             label: 'Legalario© (2018)',
