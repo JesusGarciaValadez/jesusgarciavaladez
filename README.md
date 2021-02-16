@@ -3,8 +3,7 @@
 I am a Full-stack Engineer currently working in Mexico City 🏻👦🏻‍💻
 
 ## 🤓 What I work with
-- Javascript
-- CSS & HTML
+- Javascript, CSS & HTML
 - Sass, Styled components
 - React, React Native
 - NextJS - NuxtJS
