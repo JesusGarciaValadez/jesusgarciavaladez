@@ -15,7 +15,7 @@ I am a Full-stack Engineer currently working in Mexico City 🏻👦🏻‍💻
 
 ## 💜 What I enjoy doing outside work
 - Reading 📚
-- Playinig videogames 🎮 
+- Playing videogames 🎮 
 - Play with my pets 🐈 ✈️ 
 
 ## 📍 Where you can find me
