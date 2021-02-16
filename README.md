@@ -8,7 +8,7 @@ I am a Full-stack Engineer currently working in Mexico City 🏻👦🏻‍💻
 - Sass, Styled components
 - React, React Native
 - NextJS - NuxtJS
-- Contentful
+- NodeJS
 - Netlify
 - AWS (EC2, S3, RDS)
 - PHP & Laravel ecosystem
