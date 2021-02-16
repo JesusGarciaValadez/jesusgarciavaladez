@@ -61,14 +61,14 @@
             title: 'Rolve Inmobiliaria© Development (2018)',
             label: 'Rolve Inmobiliaria©',
             name:
-              'Rolve Inmobiliaria© Development (2018) (jesus.garciav@me.com:hydra)',
+              'Rolve Inmobiliaria© Development (2018) (::hydra)',
           },
           {
             url: 'http://149.28.209.228/',
             title: 'Logikoss© Laravel Demo',
             label: 'Logikoss© Demo Project (2018)',
             name:
-              'Logikoss© Demo Project (2018) (jesus.garciav@me.com:hydrastudio)',
+              'Logikoss© Demo Project (2018) (::hydrastudio)',
           },
           {
             url: 'https://www.legalario.com/',
