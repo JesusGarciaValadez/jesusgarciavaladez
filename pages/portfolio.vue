@@ -82,12 +82,6 @@
             label: 'Kidzania© Code Redeemer Demo (2015)',
             name: 'Kidzania© Code Redeemer Demo (2015)',
           },
-          {
-            url: 'https://apps.apple.com/mx/app/atlasmx/id579811242',
-            title: 'AtlasMX App',
-            label: 'AtlasMX App (2012)',
-            name: 'AtlasMX App (2012)',
-          },
         ],
         worksOffline: [
           {
