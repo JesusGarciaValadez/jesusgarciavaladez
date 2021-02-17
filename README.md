@@ -1,10 +1,10 @@
 # JesusGarciaValadez - @JesusGarciaV_
 
-I am a Full-stack Engineer currently working in Mexico City 🏻👦🏻‍💻
+I am a Full-stack Engineer currently working in Mexico City 👦🏻‍💻
 
 ## 🤓 What I work with
 - Javascript, CSS & HTML
-- Sass, Styled components
+- Sass, Less, PostCSS, Styled components
 - React, React Native
 - NextJS - NuxtJS
 - NodeJS
