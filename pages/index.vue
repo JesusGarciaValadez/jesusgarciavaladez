@@ -2,7 +2,7 @@
   <main
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 lg:pt-10 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
-    <div class="max-w-2xl m-auto" >
+    <div class="max-w-2xl m-auto">
       <div class="font-sans font-light text-cool-gray-600 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
         <div class="mb-10 flex flex-row items-center justify-center">
           <Photo className="h-24 w-24 sm:h-32 sm:w-32 md:h-48 md:w-48 lg:h-64 lg:w-64 rounded-full" />
