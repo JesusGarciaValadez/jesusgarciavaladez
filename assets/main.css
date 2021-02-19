@@ -1,9 +1,18 @@
-.test-enter-active,
-.test-leave-active {
+.hamburguer-enter-active,
+.hamburguer-leave-active {
   transition: opacity 0.5s;
 }
-.test-enter,
-.test-leave-active {
+.hamburguer-enter,
+.hamburguer-leave-to {
+  opacity: 0;
+}
+
+.menu-enter-active,
+.menu-leave-active {
+  transition: opacity 0.5s;
+}
+.menu-enter,
+.menu-leave-to {
   opacity: 0;
 }
 
