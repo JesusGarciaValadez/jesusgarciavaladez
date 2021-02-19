@@ -232,7 +232,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   filters: {
-    capitalize(value: string) {
+    capitalize(value: string): string {
       if (!value) return ''
       value = value.toString()
       return value.charAt(0).toUpperCase() + value.slice(1)
@@ -244,16 +244,16 @@ export default Vue.extend({
     }
   },
   computed: {
-    isHello() {
+    isHello(): boolean {
       return this.$route.hash === '#hello' || this.$route.hash === ''
     },
-    isProjects() {
+    isProjects(): boolean {
       return this.$route.hash === '#projects'
     },
-    isTestimonies() {
+    isTestimonies(): boolean {
       return this.$route.hash === '#testimonies'
     },
-    isContact() {
+    isContact(): boolean {
       return this.$route.hash === '#contact'
     },
   },
