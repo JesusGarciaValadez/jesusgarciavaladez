@@ -15,7 +15,8 @@ module.exports = {
         xl: '1280px',
       },
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Lora', ...defaultTheme.fontFamily.sans],
+        serif: ['Nunito', ...defaultTheme.fontFamily.serif],
       },
       height: {
         '1/10': '10%',

@@ -3,10 +3,8 @@ import { join } from 'path'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  /*
-   ** Headers of the page
-   ** See https://nuxtjs.org/api/configuration-head
-   */
+
+  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -21,11 +19,17 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', type: 'https://rsms.me/inter/inter.css' },
+      { rel: 'preconnect', type: 'https://fonts.gstatic.com' },
+      {
+        rel: 'stylesheet',
+        type:
+          'https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Nunito&display=swap',
+      },
     ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['~/assets/main.css'],
+  css: ['~/assets/css/tailwind.css', '~/assets/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: ['@/plugins/vue-fragment.js'],
