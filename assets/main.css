@@ -7,6 +7,15 @@
   opacity: 0;
 }
 
+.close-enter-active,
+.close-leave-active {
+  transition: opacity 0.5s;
+}
+.close-enter,
+.close-leave-to {
+  opacity: 0;
+}
+
 .menu-enter-active,
 .menu-leave-active {
   transition: opacity 0.5s;
