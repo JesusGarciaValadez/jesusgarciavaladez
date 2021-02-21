@@ -1,9 +1,9 @@
 export const state = () => ({
-  counter: 0,
+  isOpen: false,
 })
 
 export const mutations = {
-  increment(state) {
-    state.counter++
+  toggleMenu(state) {
+    state.isOpen = !this.state.isOpen
   },
 }
