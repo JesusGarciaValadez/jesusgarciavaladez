@@ -80,6 +80,7 @@
           { name: 'Bulma CSS' },
           { name: 'React' },
           { name: 'Vue' },
+          { name: 'Nuxt' },
           { name: 'jQuery' },
           { name: 'ECMAScript' },
           { name: 'Accessibility' },
@@ -90,6 +91,8 @@
           { name: 'Typescript' },
           { name: 'Node' },
           { name: 'Express' },
+          { name: 'PHP' },
+          { name: 'Laravel' },
         ],
         devopsTechs: [
           { name: 'Linux' },
