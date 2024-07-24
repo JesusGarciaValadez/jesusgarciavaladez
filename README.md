@@ -5,11 +5,12 @@ I am a Full-stack Engineer currently working in Mexico City 🏻👦🏻‍💻
 ## 🤓 What I work with
 - Javascript, CSS & HTML
 - Sass, Styled components
-- React, React Native
-- NextJS - NuxtJS
+- Vue.js
+- NuxtJS
 - NodeJS
 - Netlify
 - AWS (EC2, S3, RDS)
+- GCP
 - PHP & Laravel ecosystem
 
 ## 💜 What I enjoy doing outside work
