@@ -3,7 +3,8 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <div class="font-sans font-light text-cool-gray-600 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
+      <div
+        class="font-sans font-light text-gray-800 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <ExternalLink />
         </div>
@@ -18,7 +19,7 @@
             class="my-2 sm:my-0 md:my-0 lg:my-0 xl:my-0 font-light"
           >
             <a
-              class="text-cool-gray-500 underline"
+              class="text-sky-700 underline"
               :href="network.networkUrl"
               :title="network.networkTitle"
               target="_blank"
@@ -39,7 +40,7 @@
           data-netlify-honeypot="bot-field"
           role="form"
         >
-          <input type="hidden" name="form-name" value="contact-form" />
+          <input type="hidden" name="form-name" value="contact-form">
           <p class="block my-4">
             <input
               id="name"
@@ -52,7 +53,7 @@
               required
               aria-labelledby="name"
               aria-required="true"
-            />
+            >
           </p>
           <p class="block my-4">
             <input
@@ -66,7 +67,7 @@
               required
               aria-labelledby="email"
               aria-required="true"
-            />
+            >
           </p>
           <p class="block my-4">
             <textarea
@@ -79,7 +80,7 @@
               required
               aria-describedby="messsage"
               aria-required="true"
-            ></textarea>
+            />
           </p>
           <p class="block my-4">
             <button
@@ -98,59 +99,49 @@
   </main>
 </template>
 
-<script lang="ts">
-  import Vue from 'vue'
-
-  export default Vue.extend({
-    data() {
-      return {
-        networks: [
-          {
-            networkUrl: 'https://github.com/JesusGarciaValadez',
-            networkTitle: 'Github',
-            networkLabel: 'Github Profile Page',
-            networkName: 'Github',
-          },
-          {
-            networkUrl: 'https://www.twitter.com/@JesusGarciaV_',
-            networkTitle: 'Twitter',
-            networkLabel: 'JesusGarciaV_ Twitter Account',
-            networkName: 'Twitter',
-          },
-          {
-            networkUrl: 'https://www.facebook.com/JesusAGarciaValadez/',
-            networkTitle: 'Facebook',
-            networkLabel: 'JesusGarciaValadez Facebook Page',
-            networkName: 'Facebook',
-          },
-          {
-            networkUrl: 'https://www.codepen.io/JesusGarciaValadez',
-            networkTitle: 'CodePen',
-            networkLabel: 'JesusGarciaValadez CodePen profile',
-            networkName: 'CodePen',
-          },
-          {
-            networkUrl: 'https://platzi.com/@JesusGarciaValadez/',
-            networkTitle: 'Platzi',
-            networkLabel: 'JesusGarciaValadez Platzi Profile',
-            networkName: 'Platzi',
-          },
-          {
-            networkUrl: 'https://styde.net/perfil/_chucho_/',
-            networkTitle: 'Styde: A Laravel Community in Spanish',
-            networkLabel: 'JesusGarciaValadez Styde Profile',
-            networkName: 'Styde.net',
-          },
-          {
-            networkUrl: 'https://www.linkedin.com/in/jesusgarciavaladez/',
-            networkTitle: 'LinkedIn',
-            networkLabel: 'JesusGarciaValadez LinkedIn Profile',
-            networkName: 'LinkedIn',
-          },
-        ],
-      }
-    },
-    loading: true,
-    transition: 'test',
-  })
+<script lang="ts" setup>
+const networks = [
+  {
+    networkUrl: 'https://github.com/JesusGarciaValadez',
+    networkTitle: 'Github',
+    networkLabel: 'Github Profile Page',
+    networkName: 'Github',
+  },
+  {
+    networkUrl: 'https://www.twitter.com/@JesusGarciaV_',
+    networkTitle: 'Twitter',
+    networkLabel: 'JesusGarciaV_ Twitter Account',
+    networkName: 'Twitter',
+  },
+  {
+    networkUrl: 'https://www.facebook.com/JesusAGarciaValadez/',
+    networkTitle: 'Facebook',
+    networkLabel: 'JesusGarciaValadez Facebook Page',
+    networkName: 'Facebook',
+  },
+  {
+    networkUrl: 'https://www.codepen.io/JesusGarciaValadez',
+    networkTitle: 'CodePen',
+    networkLabel: 'JesusGarciaValadez CodePen profile',
+    networkName: 'CodePen',
+  },
+  {
+    networkUrl: 'https://platzi.com/@JesusGarciaValadez/',
+    networkTitle: 'Platzi',
+    networkLabel: 'JesusGarciaValadez Platzi Profile',
+    networkName: 'Platzi',
+  },
+  {
+    networkUrl: 'https://styde.net/perfil/_chucho_/',
+    networkTitle: 'Styde: A Laravel Community in Spanish',
+    networkLabel: 'JesusGarciaValadez Styde Profile',
+    networkName: 'Styde.net',
+  },
+  {
+    networkUrl: 'https://www.linkedin.com/in/jesusgarciavaladez/',
+    networkTitle: 'LinkedIn',
+    networkLabel: 'JesusGarciaValadez LinkedIn Profile',
+    networkName: 'LinkedIn',
+  },
+]
 </script>
