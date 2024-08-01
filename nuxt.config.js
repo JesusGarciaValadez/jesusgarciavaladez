@@ -186,8 +186,6 @@ export default defineNuxtConfig({
   modules: [
     // https://nuxt.com/modules/i18n
     '@nuxtjs/i18n',
-    // Doc: https://github.com/nuxt/content
-    '@nuxt/content',
     // https://eslint.nuxt.com/packages/module
     '@nuxt/eslint',
     // https://pinia.vuejs.org/ssr/nuxt.html
@@ -349,29 +347,6 @@ export default defineNuxtConfig({
     classPrefix: '',
     classSuffix: '-mode',
     storageKey: 'nuxt-color-mode'
-  },
-  /*
-   ** Content module configuration
-   ** See https://content.nuxt.com/get-started/configuration
-   */
-  content: {
-    // Will fetch navigation, page and surround.
-    navigation: true,
-    page: true,
-    surround: true,
-    // Will fetch `content/_theme.yml` and put it in `globals.theme` if present.
-    globals: {
-      theme: {
-        where: {
-          _id: 'content:_theme.yml'
-        },
-        without: ['_']
-      }
-    },
-    // Will use `theme` global to search for a fallback `layout` key.
-    layoutFallbacks: ['theme'],
-    // Will inject `[...slug].vue` as the root page.
-    injectPage: true
   },
   router: {
     linkActiveClass: '',
