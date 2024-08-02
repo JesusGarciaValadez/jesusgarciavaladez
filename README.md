@@ -1,6 +1,6 @@
 # JesusGarciaValadez - @JesusGarciaV_
 
-I am a Full-stack Engineer currently working in Mexico City 🏻👦🏻‍💻
+I am a Full-stack Engineer currently working in Breda, Netherlands 🏻👦🏻‍💻
 
 ## 🤓 What I work with
 - Javascript, CSS & HTML
