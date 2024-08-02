@@ -11,8 +11,11 @@
   </main>
 </template>
 
-<script lang="ts">
-export default {
-  props: ['error']
-};
+<script lang="ts" setup>
+defineProps({
+  error: {
+    type: Object,
+    required: true,
+  },
+})
 </script>

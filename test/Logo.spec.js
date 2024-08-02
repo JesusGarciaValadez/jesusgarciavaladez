@@ -1,3 +1,4 @@
+import { test, describe, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 import Logo from '~/components/global/Logo.vue'
 

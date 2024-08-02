@@ -3,7 +3,8 @@
     class="bg-white rounded-lg md:rounded-t-none lg:rounded-t-none xl:rounded-t-none p-4 lg:px-32 lg:pb-20 mt-10 md:mt-0 lg:mt-0 xl:mt-0"
   >
     <div class="max-w-full">
-      <div class="font-sans font-light text-cool-gray-600 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
+      <div
+        class="font-sans font-light text-gray-800 text-base sm:text-lg md:text-lg lg:text-lg xl:text-lg leading-normal space-y-6">
         <div class="flex flex-shrink-0 flex-row items-center justify-center">
           <Code />
         </div>
@@ -17,7 +18,7 @@
             v-for="(tech, index) in frontendTechs"
             :key="index"
             :technology="tech"
-          ></TechnologyList>
+          />
         </ul>
         <h2 class="text-1xl font-extrabold mb-4" role="heading">Back-end</h2>
         <ul
@@ -28,7 +29,7 @@
             v-for="(tech, index) in backendTechs"
             :key="index"
             :technology="tech"
-          ></TechnologyList>
+          />
         </ul>
         <h2 class="text-1xl font-extrabold mb-4" role="heading">DevOps</h2>
         <ul
@@ -39,7 +40,7 @@
             v-for="(tech, index) in devopsTechs"
             :key="index"
             :technology="tech"
-          ></TechnologyList>
+          />
         </ul>
         <h2 class="text-1xl font-extrabold mb-4" role="heading">Marketing</h2>
         <ul
@@ -50,7 +51,7 @@
             v-for="(tech, index) in marketingTechs"
             :key="index"
             :technology="tech"
-          ></TechnologyList>
+          />
         </ul>
         <p class="my-4">
           I work a lot in my soft skills as to how to make a hiring process, how to give feedback, how to help
@@ -64,52 +65,45 @@
   </main>
 </template>
 
-<script lang="ts">
-  import Vue from 'vue'
-
-  export default Vue.extend({
-    data() {
-      return {
-        frontendTechs: [
-          { name: 'SASS' },
-          { name: 'LESS' },
-          { name: 'Stylus' },
-          { name: 'PostCSS' },
-          { name: 'Materialize' },
-          { name: 'Boostrap 3' },
-          { name: 'Bulma CSS' },
-          { name: 'React' },
-          { name: 'Vue' },
-          { name: 'jQuery' },
-          { name: 'ECMAScript' },
-          { name: 'Accessibility' },
-          { name: 'PWA' },
-          { name: 'Web Workers' },
-        ],
-        backendTechs: [
-          { name: 'Typescript' },
-          { name: 'Node' },
-          { name: 'Express' },
-        ],
-        devopsTechs: [
-          { name: 'Linux' },
-          { name: 'MySQL' },
-          { name: 'Firebase' },
-          { name: 'MongoDB' },
-          { name: 'Postgres' },
-          { name: 'Docker' },
-        ],
-        marketingTechs: [
-          { name: 'SEO' },
-          { name: 'SEM' },
-          { name: 'Email Marketing Campaigns' },
-          { name: 'Google Ads Campaigns' },
-          { name: 'Facebook Ads Campaigns' },
-          { name: 'Twitter Ads Campaigns' },
-        ],
-      }
-    },
-    loading: true,
-    transition: 'test'
-  })
+<script lang="ts" setup>
+const frontendTechs = [
+  { name: 'SASS' },
+  { name: 'LESS' },
+  { name: 'Stylus' },
+  { name: 'PostCSS' },
+  { name: 'Materialize' },
+  { name: 'Boostrap 3' },
+  { name: 'Bulma CSS' },
+  { name: 'React' },
+  { name: 'Vue' },
+  { name: 'Nuxt' },
+  { name: 'jQuery' },
+  { name: 'ECMAScript' },
+  { name: 'Accessibility' },
+  { name: 'PWA' },
+  { name: 'Web Workers' },
+]
+const backendTechs = [
+  { name: 'Typescript' },
+  { name: 'Node' },
+  { name: 'Express' },
+  { name: 'PHP' },
+  { name: 'Laravel' },
+]
+const devopsTechs = [
+  { name: 'Linux' },
+  { name: 'MySQL' },
+  { name: 'Firebase' },
+  { name: 'MongoDB' },
+  { name: 'Postgres' },
+  { name: 'Docker' },
+]
+const marketingTechs = [
+  { name: 'SEO' },
+  { name: 'SEM' },
+  { name: 'Email Marketing Campaigns' },
+  { name: 'Google Ads Campaigns' },
+  { name: 'Facebook Ads Campaigns' },
+  { name: 'Twitter Ads Campaigns' },
+]
 </script>
