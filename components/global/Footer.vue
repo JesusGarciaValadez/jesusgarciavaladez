@@ -41,7 +41,7 @@
         </a>
       </div>
       <div class="mt-8">
-        <p class="text-center text-base leading-6 text-sky-300">&copy; 2020 Jesús García. All rights reserved.</p>
+        <p class="text-center text-base leading-6 text-sky-300">&copy; 2024 Jesús García. All rights reserved.</p>
         <p class="text-center text-base leading-6 text-sky-300">This portfolio was made with <span><Heart /></span>
           using TailwindCSS, and Nuxt.
         </p>
