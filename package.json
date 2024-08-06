@@ -1,7 +1,8 @@
 {
   "name": "JesusGarciaValadez",
-  "version": "0.2.0",
+  "version": "1.2.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -10,8 +11,7 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "test": "jest",
-    "cypress:open": "cypress open",
+    "test": "vitest",
     "build-css": "postcss src/css/tailwind.css -o public/css/style.css --pretty",
     "build-prod": "postcss src/css/tailwind.css -o public/css/style.css --map --env=production",
     "watch-css": "postcss src/css/tailwind.css -o public/css/style.css --watch --pretty"
@@ -35,7 +35,7 @@
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.13",
     "@tailwindcss/ui": "^0.7.2",
-    "autoprefixer": "^10.4.19",
+    "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.4",
     "eslint": "^9.8.0",
     "nuxt": "^3.12.4",
@@ -55,6 +55,7 @@
     "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/partytown": "^1.5.0",
     "@nuxtjs/tailwindcss": "^6.12.1",
+    "@vitejs/plugin-vue": "^5.1.2",
     "@vue/test-utils": "^2.4.6",
     "happy-dom": "^14.12.3",
     "jest": "^29.7.0",
@@ -62,8 +63,8 @@
     "nuxt-purgecss": "^2.0.0",
     "playwright-core": "^1.45.3",
     "prettier": "^3.3.3",
-    "ts-jest": "^29.2.3",
-    "vitest": "^2.0.4",
+    "ts-jest": "^29.2.4",
+    "vitest": "^2.0.5",
     "vue-jest": "^3.0.7"
   },
   "engines": {
