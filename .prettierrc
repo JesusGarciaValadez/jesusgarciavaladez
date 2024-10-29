@@ -4,5 +4,6 @@
   "tabWidth": 2,
   "semi": false,
   "singleQuote": true,
-  "vue-indent-script-and-style": false
+  "vue-indent-script-and-style": false,
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

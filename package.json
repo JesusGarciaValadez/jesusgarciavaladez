@@ -1,6 +1,6 @@
 {
   "name": "JesusGarciaValadez",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -16,6 +16,7 @@
     "build-prod": "postcss src/css/tailwind.css -o public/css/style.css --map --env=production",
     "watch-css": "postcss src/css/tailwind.css -o public/css/style.css --watch --pretty"
   },
+  "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
     "@headlessui/tailwindcss": "^0.2.1",

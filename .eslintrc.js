@@ -12,6 +12,7 @@ module.exports = {
     'plugin:nuxt/recommended',
     'plugin:prettier/recommended',
     'plugin:@intlify/vue-i18n/recommended',
+    'next/core-web-vitals',
   ],
   plugins: ['vitest'],
   parserOptions: {
